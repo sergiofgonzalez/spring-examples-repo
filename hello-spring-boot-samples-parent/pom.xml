@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.0.2.RELEASE</version>
+	</parent>
+	
+	<groupId>org.joolzminer</groupId>
+	<artifactId>hello-spring-boot-samples-parent</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	
+	<name>hello-spring-boot-samples-parent</name>
+	<description>Getting started with Spring Boot for several types of projects</description>
+
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>hello-spring-boot-web</module>
+	</modules>
+	
+	
+    <developers>
+        <developer>
+            <id>sergio.f.gonzalez</id>
+            <name>Sergio F. Gonzalez</name>
+            <email>sergio.f.gonzalez@gmail.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>    	
+</project>
