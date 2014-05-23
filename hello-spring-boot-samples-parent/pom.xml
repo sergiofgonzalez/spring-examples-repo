@@ -19,9 +19,10 @@
 	
 	<modules>
 		<module>hello-spring-boot-web</module>
+		<module>hello-spring-boot-web-security</module>
 	</modules>
 	
-	
+		
     <developers>
         <developer>
             <id>sergio.f.gonzalez</id>
@@ -31,5 +32,6 @@
                 <role>Developer</role>
             </roles>
         </developer>
-    </developers>    	
+    </developers>
+        	
 </project>
