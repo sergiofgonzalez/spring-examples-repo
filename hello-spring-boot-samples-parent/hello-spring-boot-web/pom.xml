@@ -11,6 +11,18 @@
 
 	<artifactId>hello-spring-boot-web</artifactId>
 	<name>|-- hello-spring-boot-web</name>
+	
+	<description>
+		This project is the simplest web application built upon Spring Boot.
+		It includes the following classes:
+		Application.java:
+			The Configuration and Runner class.
+		SampleController.java
+			A simple Controller that returns a string to he browser when accessed /.
+			
+		To run the application you must run the Application class or use spring-boot:run
+		goal, and a Tomcat will be deployed to host the application.
+	</description>
 		
 	
 	<dependencies>
