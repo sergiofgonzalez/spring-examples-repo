@@ -31,7 +31,7 @@ public class Application extends WebMvcConfigurerAdapter {
 		@RequestMapping("/")
 		@Secured("ROLE_ADMIN")
 		public String home(Map<String, Object> model) {
-			model.put("message", "Hello, world!");
+			model.put("message", "Hello, world! -- You've reached a secured destination only available to ADMIN!!");
 			model.put("title", "Hello home");
 			model.put("date", new Date());
 			return "home";

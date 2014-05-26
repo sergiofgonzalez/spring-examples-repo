@@ -15,7 +15,7 @@
 		This is an example of user authentication using Spring Boot.
 		The project also leverages Thymeleaf as a templating engine. It simplifies the
 		organization of the project although the use is not extensive.
-		
+				
 		Functionality:
 		In the application, the user will initially log in: localhost:8080 and the
 		user will be redirected to /login resource.
@@ -74,14 +74,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 	</dependencies>
   	
