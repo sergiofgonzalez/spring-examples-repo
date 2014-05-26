@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="sipUniversity">
+	<head>
+		<meta charset="utf-8">
+		<title>SiP University</title>
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+		<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+		<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+		<script type="text/javascript">
+			'use strict';
+			angular.module('sipUniversity', ['ngRoute'])
+				.config(function ($routeProvider, USER_ROLES) {
+					$routeProvider.when('/login', {templateUrl: '/views/sipLogin.html', access: {authorizedRoles: USER_ROLES.all}});
+					$routeProvider.when('/home', {templateUrl: 'views/sipHome.html', access: {authorizedRoles: USER_ROLES.user}});
+					$routeProvider.otherwise({redirectTo: '/login'});
+				});
+		</script>
+		<script type="text/javascript" src="/scripts/controllers/sip-main-controller.js"></script>
+	</head>
+	<body>
+		<ng-view />
+	</body>
+</html>

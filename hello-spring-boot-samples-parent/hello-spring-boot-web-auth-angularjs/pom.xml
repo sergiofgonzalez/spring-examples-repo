@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>hello-spring-boot-samples-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>hello-spring-boot-web-auth-angularjs</artifactId>
+	
+	<name>|-- hello-spring-boot-web-auth-angularjs</name>
+	<description>
+		This is an example of user authentication using Spring Boot + Spring Security
+		for the backend and AngularJS application for the backend.
+		The project also leverages Thymeleaf as a templating engine. It simplifies the
+		organization of the project although the use is not extensive.
+				
+		Functionality:
+		In the application, the user will initially log in: localhost:8080 and the
+		user will be redirected to /login resource.
+		There are two users defined: (admin, admin) and (user, user).
+		When the admin user logs in, it is redirected to the home page with some information
+		displayed on the screen.
+		When the user logs in, it is also redirected to the home page, but he is not allowed
+		to that page and therefore, it is redirected again to the error page.
+		An authenticated user can click on the logout link, and it will be redirected to
+		the login page with a successful logout message being displayed.
+		If the user is not registered in the repository, the user is presented with an
+		error page.
+		
+		Implementation:
+		The project is based on a quite complex single class: Application.
+		The class features a main() method, as is customary in Spring Boot projects.
+		
+		AuthenticationSecurity:
+		The class includes a nested class AuthenticationSecurity which extends from
+		GlobalAuthenticationConfigurerAdapter that defines an In-Memory Authentication
+		repository with users:
+			User   Password  Roles
+			-----  --------  -----------
+		    admin  admin,    ADMIN, USER 
+			user   user      USER
+		
+		ApplicationSecurity:
+		It also includes a nested class ApplicationSecurity which extends from 
+		WebSecurityConfigurerAdapter that configures the security behavior of the application:
+			+ /login resource is allowed for all users
+			+ /login is established as the login page
+			+ /login?error is established as the logical view for unsuccessful login
+			+ /logout is established as the logical view for logout
+			+ /access?error is established as the logical view for the access denied error
+		
+		addViewControllers():
+			This method is in charge of establishing the rules for the view routes between
+			logical and physical views.
+				+ /login is set to login
+				+ /access is set to access
+		
+		HomeController:
+		This is a nested class that features the controller for the / resource.		
+		home():
+			This method is the method that takes control when the user accesses the server.
+			It is annotated with a @Secured("ROLE_ADMIN") to prevent authenticated users
+			that do not have the admin role from accessing this page.		
+	</description>
+		
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+	</dependencies>
+  	
+</project>
