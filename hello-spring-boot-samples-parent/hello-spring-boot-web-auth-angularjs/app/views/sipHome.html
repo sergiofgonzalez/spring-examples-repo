@@ -1,4 +1,10 @@
 <div class="well">
 	This is the SiP home page.
-	You are xxx and your authorities are {x, y, z}.
+	<div class="alert alert-danger" ng-show="data.error">
+		Error after authentication: ({{data.error.status}}).
+	</div>
+
+	<div class="well" ng-hide="data.error">
+		You are {{data.userData.username}} and your authorities are {{data.userData.roles}}.
+	</div>
 </div>

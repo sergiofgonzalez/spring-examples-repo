@@ -10,15 +10,15 @@
 		<script type="text/javascript">
 			'use strict';
 			angular.module('sipUniversity', ['ngRoute'])
-				.config(function ($routeProvider, USER_ROLES) {
-					$routeProvider.when('/login', {templateUrl: '/views/sipLogin.html', access: {authorizedRoles: USER_ROLES.all}});
-					$routeProvider.when('/home', {templateUrl: 'views/sipHome.html', access: {authorizedRoles: USER_ROLES.user}});
+				.config(function ($routeProvider) {
+					$routeProvider.when('/login', {templateUrl: '/views/sipLogin.html'});
+					$routeProvider.when('/home', {templateUrl: 'views/sipHome.html'});
 					$routeProvider.otherwise({redirectTo: '/login'});
 				});
 		</script>
 		<script type="text/javascript" src="/scripts/controllers/sip-main-controller.js"></script>
 	</head>
-	<body>
+	<body ng-controller="sipUniversityController">
 		<ng-view />
 	</body>
 </html>
