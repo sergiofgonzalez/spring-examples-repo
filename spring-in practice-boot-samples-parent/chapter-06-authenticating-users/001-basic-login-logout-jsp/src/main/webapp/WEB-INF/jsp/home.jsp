@@ -13,7 +13,7 @@
 </head>
 <body>
 	<div class="navbar navbar-inverse">
-		<a class="navbar-brand href="${homeUrl}">Home</a>
+		<a class="navbar-brand" href="${homeUrl}">Home</a>
 	</div>
 	
 	<div class="well">			
