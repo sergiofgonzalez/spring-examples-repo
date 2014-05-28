@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>chapter-06-authenticating-users</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>001-basic-login-logout-jsp</artifactId>
+	
+	<packaging>war</packaging>
+	
+	<name>|---- 001-basic-login-logout-jsp</name>
+	<description>
+		This is the first example of SiP Chapter 6 - Authenticating Users, but migrated
+		to Spring Boot.
+				
+		Functionality:
+		It is simple website with a single page represented by 'home.jsp'. This page
+		features content that depends on whether the user has been authenticated or not.
+		To perform the authentication of anonymous users, the home page includes a link
+		to a login page that is provided by Spring. This page does not include any type
+		of CSS: only the username, password and rememberMe checkbox.
+		When the user authenticates, he/she is redirected again to the home page and the
+		content is updated to reflect that the user is authenticated.
+		
+		Components:
+		
+		Application.java:
+		Spring Boot application class runner. The class is annotated with 
+		@EnableAutoConfiguration, along with @Configuration and @ComponentScan.
+		The application is started as a main which invokes the SpringApplication.run().
+		
+		WebMvcConfig.java:
+		The configuration class for Spring MVC. It xtends the class WebConfigurerAdapter
+		to include the empty controllers for the "/home" and "/" views.
+		The class includes an @Configuration annotation to identify the class as a 
+		JavaConfig class.
+		
+		SecurityConfig.java:
+		The configuration class for Spring Secutity. It extends the 
+		WebSecurityConfigurerAdapter class and performs two different configuration actions:
+			+ Login/Logout configurations: configures where the user must be redirected
+			  after successful login and logout and that you require rememberMe options.
+			+ AuthenticationManager configuration: configures an inMemoryAuthentication
+			  repository with a couple of users with passwords and associated roles.
+		
+		application.properties:
+			Configures and tailors the view prefix and suffix to /WEB-INF/jsp/xxx.jsp
+		
+		home.jsp:
+			The home page as a JSP. It includes the Spring Security tags to be able to use
+			security: tags which include methods such as isAnonymous() and isAuthenticated()
+			to identify block of code that should be displayed or suppressed depending on
+			the outcome of the invocation of those methods.
+			
+		pom.xml:
+			The POM for this project which includes:
+			+ packaging as a WAR
+			+ Additional required dependencies besides Spring Boot's:
+				- Tomcat and Tomcat Embedded
+				- Security Tags Library
+	</description>
+		
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>3.2.3.RELEASE</version>
+		</dependency>		
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+  	
+</project>
