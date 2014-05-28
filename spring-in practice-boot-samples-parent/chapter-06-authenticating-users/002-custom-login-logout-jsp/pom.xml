@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>chapter-06-authenticating-users</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>002-custom-login-logout-jsp</artifactId>
+	
+	<packaging>war</packaging>
+	
+	<name>|---- 002-custom-login-logout-jsp</name>
+	<description>
+		This is the second example of SiP Chapter 6 - Authenticating Users:
+			Customizing the Login Page.
+		It has been migrated to Spring Boot and Java Config.
+				
+		Functionality:
+		Builds on the functionality of 001- but adds a custom login page.
+		Because of this several additions have to be made to the Security Configuration.
+		
+		Components (changed/added over 001-):
+
+		WebMvcConfig.java:
+		The configuration class for Spring MVC.
+		An view controller is added to map the "login" view name to "/login", which
+		ultimately will be mapped to login.jsp.
+		
+		SecurityConfig.java:
+		The configuration class for Spring Secutity.
+		It has been modified to include the particularities of the custom login page:
+			+ the username and password parameter names have to be specified.
+			+ the logical name of the login page is specified.
+			+ the login processing URL has to be set to j_spring_security_check.
+			+ in case of error, it is specified that the same page has to be rendered
+			  but a "failed=true" parameter is included so that the view knows that
+			  the login attempt has failed.
+		
+		login.jsp:
+			The login page. It includes several interesting things:
+			+ some parts are shown/hidden based on the presence of the failed parameter
+			  in the HTTP login request. This is done using JSTL.
+			+ The CSRF token is included in the form as a hidden input component. If
+			  this field is not included, the login fails.
+			+ When the user clicks on the submit button, the form is sent to 
+			  j_spring_security_check. It seems that this value is needed here and also
+			  in the SecurityConfig class.		
+	</description>
+		
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>3.2.3.RELEASE</version>
+		</dependency>		
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+  	
+</project>
