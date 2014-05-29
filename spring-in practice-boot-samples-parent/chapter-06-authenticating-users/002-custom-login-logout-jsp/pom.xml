@@ -30,7 +30,7 @@
 		ultimately will be mapped to login.jsp.
 		
 		SecurityConfig.java:
-		The configuration class for Spring Secutity.
+		The configuration class for Spring Security.
 		It has been modified to include the particularities of the custom login page:
 			+ the username and password parameter names have to be specified.
 			+ the logical name of the login page is specified.
