@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>chapter-06-authenticating-users</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>003-inline-login-form</artifactId>
+	
+	<packaging>war</packaging>
+	
+	<name>|---- 003-inline-login-form</name>
+	<description>
+		This is the third example of SiP Chapter 6 - Authenticating Users:
+			Implementing an always-resident login form.
+		It has been migrated to Spring Boot and Java Config.
+				
+		Functionality:
+		Builds on the functionality of 002- but instead of adding an specialized login
+		page uses jspf to include the login form on every page of the application.
+		While the user is not authenticated the login form is always present below the
+		navigation bar. As soon as the user authenticates, the form dissapears and a
+		message with the user.principal and a logout link is always present.
+		
+		Components (changed/added over 002-):
+
+		WebMvcConfig.java:
+		The configuration class for Spring MVC.
+		An view controller is added to map the "loginRequired" view name to "/loginRequired",
+		and the "loginFailed" view to "/loginView".
+		
+		SecurityConfig.java:
+		The configuration class for Spring Security.
+		It has been minimally modified to set the login page to "/loginRequired" and the
+		failureUrl to "/loginFailed"
+		
+		inline-login-form.jspf:
+			The JSP segment for the inline login form. It is very similar to the login
+			form of 002- but with some tweaks related to CSS to make the form inline.
+		
+		navbar.jspf:
+			The JSP segment for the navigation bar.
+		
+		home.jsp:
+			Modified to leverage the navbar and inline-login-form segments. The content
+			of the page has been also slightly modified to let the user reach the "/loginRequired".
+		
+		loginRequired.jsp:
+			The main login page, which includes the inline-login-form.
+			
+		loginFailed.jsp
+			The page that is displayed to the user when the login fails. It includes
+			the inline-login-form segment.
+	</description>
+		
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>3.2.3.RELEASE</version>
+		</dependency>		
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+  	
+</project>

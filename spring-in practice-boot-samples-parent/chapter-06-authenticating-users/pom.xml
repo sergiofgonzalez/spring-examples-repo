@@ -17,6 +17,7 @@
 	<modules>
 		<module>001-basic-login-logout-jsp</module>
 		<module>002-custom-login-logout-jsp</module>
+		<module>003-inline-login-form</module>
 	</modules>
 	
 </project>
