@@ -40,7 +40,7 @@
 		JavaConfig class.
 		
 		SecurityConfig.java:
-		The configuration class for Spring Secutity. It extends the 
+		The configuration class for Spring Security. It extends the 
 		WebSecurityConfigurerAdapter class and performs two different configuration actions:
 			+ Login/Logout configurations: configures where the user must be redirected
 			  after successful login and logout and that you require rememberMe options.
