@@ -1,0 +1,20 @@
+spring:
+    view:
+        prefix: /WEB-INF/jsp/
+        suffix: .jsp
+
+
+application:
+    dataSource:
+        driverClassName: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+        url: jdbc:mysql://localhost:3306/sip06?autoReconnect=true
+        username: root
+        password: Accenture1
+
+        scripts:
+            create: sql/create-schema.sql
+            insert: sql/insert-data.sql
+
+    security:
+        usersByUsernameQuery: select username, password, enabled from account where username = ?
+        authoritiesByUsernameQuery: select a.username, b.name from account a, role b, account_role c where a.username = ? and a.id = c.account_id and b.id = c.role_id;

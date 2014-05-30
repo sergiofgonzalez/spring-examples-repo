@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>chapter-06-authenticating-users</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>005-custom-db-backed-user-repo</artifactId>
+	
+	<packaging>war</packaging>
+	
+	<name>|---- 005-custom-db-backed-user-repo</name>
+	<description>
+		This is the fourth example of SiP Chapter 6 - Authenticating Users:
+			Customizing the user database schema.
+		It has been migrated to Spring Boot and Java Config.
+				
+		Functionality:
+		No changes over 004-. The implementation of the user database is now backed by 
+		custom database tables.
+
+		
+		Components (changed/added over 004-):
+		
+		application.yml:
+		Configuration is divided into spring. and application. to create some sort of
+		namespace and prevent clashes with spring boot.
+		Two new properties are added below application.security to configure the queries
+		that must be used to retrieve the user properties by username and its authorities
+		also by username.
+
+				
+		sql/create-schema.sql:
+		The creation of the tables in which JDBC Authentication will be based. In this
+		version, the tables are custom tables:
+			+ account : the users table
+			+ role : the authorities tables
+			+ role_account : the relationship table between accounts and roles 
+		
+		sql/insert-data.sql
+		The insertion of the users and its authorities using the new tables.
+		
+		SecurityConfig.java:
+		The jdbcAuthentication is further configured to include the queries that Spring
+		Security must use to obtain the user properties and its authorities. This is
+		required because the tables and fields are different from what Spring Security
+		expects.
+	</description>
+		
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>3.2.3.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.zaxxer</groupId>
+			<artifactId>HikariCP</artifactId>
+			<version>1.3.8</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.sun</groupId>
+					<artifactId>tools</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            </dependency>				
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+  	
+</project>
