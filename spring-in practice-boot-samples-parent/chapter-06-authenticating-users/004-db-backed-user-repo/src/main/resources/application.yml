@@ -1,0 +1,15 @@
+spring:
+    view:
+        prefix: /WEB-INF/jsp/
+        suffix: .jsp
+
+
+dataSource:
+    driverClassName: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+    url: jdbc:mysql://localhost:3306/sip06?autoReconnect=true
+    username: root
+    password: Accenture1
+
+    scripts:
+        create: sql/create-schema.sql
+        insert: sql/insert-data.sql
