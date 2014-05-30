@@ -1,5 +1,4 @@
 # 001-basic-registration-form
-==============================
 
 This is the first example of SiP Chapter 4 - Basic Web Forms:
 	Displaying a Web Form
@@ -13,9 +12,7 @@ When the user accesses the "/" it is redirected to the registration form.
 ## Components:
 		
 ### Application.java:
-		Spring Boot application class runner. The class is annotated with 
-		@EnableAutoConfiguration, along with @Configuration and @ComponentScan.
-		The application is started as a main which invokes the SpringApplication.run().
+Spring Boot application class runner. The class is annotated with @EnableAutoConfiguration, along with @Configuration and @ComponentScan. The application is started as a main which invokes the SpringApplication.run().
 		
 ### WebMvcConfig.java:
 The configuration class for Spring MVC. It extends the class WebConfigurerAdapter to include the empty controllers for the "/" and "/accounts/registrationOk" views.
