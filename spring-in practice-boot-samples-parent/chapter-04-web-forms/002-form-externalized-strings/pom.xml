@@ -14,7 +14,7 @@
 	
 	<name>|---- 002-form-externalized-strings</name>
 	<description>
-		This is the first example of SiP Chapter 4 - Basic Web Forms:
+		This is the second example of SiP Chapter 4 - Basic Web Forms:
 			Externalizing strings in the view
 		It has been migrated to Spring Boot and Java Config.		
 		
