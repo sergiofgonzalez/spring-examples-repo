@@ -17,6 +17,7 @@
 	<modules>
 		<module>001-basic-registration-form</module>
 		<module>002-form-externalized-strings</module>
+		<module>003-form-validation</module>
 	</modules>
 	
 </project>
