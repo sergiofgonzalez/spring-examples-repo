@@ -8,11 +8,11 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>005-custom-user-service</artifactId>
+	<artifactId>006-custom-user-service</artifactId>
 	
 	<packaging>war</packaging>
 	
-	<name>|---- 005-custom-user-service</name>
+	<name>|---- 006-custom-user-service</name>
 	<description>
         This is the sixth example of SiP Chapter 6 - Authenticating Users:
             Using a custom user service and user principal.
