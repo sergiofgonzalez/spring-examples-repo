@@ -18,6 +18,7 @@
 	<packaging>pom</packaging>
 	
 	<modules>
+        <module>chapter-03-web-mvc</module>	       
 		<module>chapter-04-web-forms</module>
 		<module>chapter-06-authenticating-users</module>
 	</modules>

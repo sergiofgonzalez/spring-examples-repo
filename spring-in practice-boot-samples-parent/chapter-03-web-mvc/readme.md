@@ -1,0 +1,6 @@
+# Chapter 3: Building Web Applications with Spring Web MVC
+
+Examples from SiP Chapter 3 - Building Web Applications with Spring Web MVC
+
+## Projects
+* 001-list-detail-app
