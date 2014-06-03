@@ -23,7 +23,7 @@ application:
         password: Accenture1
 
         initializer:
-            enabled: false
+            enabled: true
             
             scripts:
                 create: sql/create-schema.sql
