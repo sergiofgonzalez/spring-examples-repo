@@ -22,6 +22,7 @@
 		<module>005-custom-db-backed-user-repo</module>
 		<module>006-custom-user-service</module>
 		<module>007-hashing-user-passwords</module>
+		<module>008-auto-authentication-after-registration</module>
 	</modules>
 	
 </project>

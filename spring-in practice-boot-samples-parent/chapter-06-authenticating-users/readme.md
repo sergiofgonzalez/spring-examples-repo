@@ -10,3 +10,4 @@ Examples from SiP Chapter 6 - Authenticating Users
 * 005-custom-db-backed-user-repo
 * 006-custom-user-service
 * 007-hashing-user-passwords
+* 008-auto-authentication-after-registration
