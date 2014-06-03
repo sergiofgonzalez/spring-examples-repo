@@ -33,9 +33,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.and()
 			.rememberMe();
 	}
-
-	@Autowired
-	private DataSource dataSource;
 		
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth)	throws Exception {
