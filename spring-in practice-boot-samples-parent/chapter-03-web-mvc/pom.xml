@@ -17,6 +17,7 @@
 	<modules>
 		<module>001-list-detail-app</module>
 		<module>002-form-serving-and-processing</module>
+		<module>003-form-redirect-after-post</module>
 	</modules>
 	
 </project>

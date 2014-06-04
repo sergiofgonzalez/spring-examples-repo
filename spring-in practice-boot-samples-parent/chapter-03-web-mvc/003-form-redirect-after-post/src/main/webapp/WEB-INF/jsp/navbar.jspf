@@ -1,0 +1,12 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:url var="rosterUrl" value="/" />
+<c:url var="nominationFormUrl" value="/nominee" />
+
+<div class="well-sm">
+    <div class="navbar">
+        <ul class="nav nav-pills">
+            <li class="active"><a href="${rosterUrl}">Roster</a></li>
+            <li><a href="${nominationFormUrl}">Nominate for an Award</a></li>
+        </ul>
+    </div>
+</div>
