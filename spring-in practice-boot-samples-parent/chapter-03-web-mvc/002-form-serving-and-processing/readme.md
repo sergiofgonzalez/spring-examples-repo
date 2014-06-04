@@ -9,7 +9,7 @@ It has been migrated to Spring Boot and Java Config.
 The application builds on the basis of 001- and adds the capability of casting a vote for an award, to demonstrate how serving and processing forms work on Spring MVC. Besides, it features some other techniques for Controller methods that were not shown on 001-.
 
 	
-## Components:
+## Components (added/modified):
 		
 ### Member.java
 The model (domain model) class that represents a member of the roster is modified to include a public constructor and the setters for the properties, as in this example we need two-way data-binding.
