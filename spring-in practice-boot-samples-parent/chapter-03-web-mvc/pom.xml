@@ -16,6 +16,7 @@
 	
 	<modules>
 		<module>001-list-detail-app</module>
+		<module>002-form-serving-and-processing</module>
 	</modules>
 	
 </project>
