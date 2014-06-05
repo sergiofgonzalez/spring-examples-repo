@@ -1,0 +1,11 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:url var="allContactsUrl" value="/contact/list" />
+
+<div class="well-sm">
+    <div class="navbar">
+        <ul class="nav nav-pills">
+            <li class="active"><a href="${allContactsUrl}">All Contacts</a></li>
+            <li class="pull-right">Site: ${currentSitePreference}</li>
+        </ul>
+    </div>
+</div>

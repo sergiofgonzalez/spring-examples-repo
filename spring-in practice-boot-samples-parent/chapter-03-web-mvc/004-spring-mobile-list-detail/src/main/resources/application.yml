@@ -1,0 +1,16 @@
+spring:
+    view:
+        prefix: /WEB-INF/jsp/
+        suffix: .jsp
+    
+    mobile:
+        enableSitePreference: true
+
+application:
+    view:
+        mobilePrefix: mobile/
+        normalPrefix: normal/
+
+    
+    
+                        
