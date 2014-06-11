@@ -1,0 +1,33 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
+
+<c:url var="homeUrl" value="/home" />
+<c:url var="loginFormUrl" value="/login" />
+<c:url var="logoutUrl" value="/logout" />
+
+
+<div class="navbar-inverse navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/home">SiP University</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="${homeUrl}">Home</a></li>
+                <li><a href="#">Forums</a></li>
+                <li><a href="#">Admin</a></li>
+            </ul>
+            
+            <div class="container">            
+                <ul class="nav navbar-nav navbar-right">
+                    <security:authorize access="isAuthenticated()">
+                        <li class="navbar-text">Hello <security:authentication property="principal.fullName" />.</li>
+                        <li><a href="${logoutUrl}">Log out</a></li>
+                    </security:authorize>
+                    <security:authorize access="isAnonymous()">
+                        <li class="navbar-text">Hello guest.</li>
+                        <li><a href="${loginFormUrl}" class="navbar-link important">Log in</a></li>
+                    </security:authorize>
+                </ul>
+            </div>
+        </div><!--/.nav-collapse -->
+</div>    

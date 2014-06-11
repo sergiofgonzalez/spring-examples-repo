@@ -1,0 +1,53 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+
+DROP TABLE IF EXISTS `account`;
+
+CREATE TABLE `account` (
+	`id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`username` VARCHAR(50) NOT NULL,
+	`first_name` VARCHAR(50) NOT NULL,
+	`last_name` VARCHAR(50) NOT NULL,
+	`email` VARCHAR(50) NOT NULL,
+	`password` VARCHAR(80) NULL DEFAULT NULL,
+	`marketing_ok` TINYINT(1) NOT NULL,
+	`accept_terms` TINYINT(1) NOT NULL,
+	`enabled` TINYINT(1) NOT NULL,
+	`date_created` TIMESTAMP NOT NULL DEFAULT '0000-00-00 00:00:00',
+	`date_modified` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	PRIMARY KEY (`id`),
+	UNIQUE INDEX `username` (`username`),
+	UNIQUE INDEX `account_idx_1` (`username`),
+	UNIQUE INDEX `account_idx_2` (`email`)
+)
+COLLATE='utf8_bin'
+ENGINE=InnoDB;
+
+DROP TABLE IF EXISTS `role`;
+
+CREATE TABLE `role` (
+	`id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(50) NOT NULL,
+	PRIMARY KEY (`id`),
+	UNIQUE INDEX `name` (`name`)
+)
+COLLATE='utf8_bin'
+ENGINE=InnoDB;
+
+DROP TABLE IF EXISTS `account_role`;
+
+CREATE TABLE `account_role` (
+	`id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`account_id` BIGINT(20) UNSIGNED NOT NULL,
+	`role_id` BIGINT(20) UNSIGNED NOT NULL,
+	PRIMARY KEY (`id`),
+	UNIQUE INDEX `account_role_idx_1` (`account_id`, `role_id`),
+	INDEX `role_id` (`role_id`),
+	CONSTRAINT `account_role_ibfk_1` FOREIGN KEY (`account_id`) REFERENCES `account` (`id`),
+	CONSTRAINT `account_role_ibfk_2` FOREIGN KEY (`role_id`) REFERENCES `role` (`id`)
+)
+COLLATE='utf8_bin'
+ENGINE=InnoDB;
+
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

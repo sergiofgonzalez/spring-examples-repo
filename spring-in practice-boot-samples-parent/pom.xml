@@ -21,6 +21,7 @@
         <module>chapter-03-web-mvc</module>	       
 		<module>chapter-04-web-forms</module>
 		<module>chapter-06-authenticating-users</module>
+		<module>chapter-07-authorizing-user-requests</module>
 	</modules>
 	
 	<properties>
