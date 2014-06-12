@@ -5,7 +5,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 @SuppressWarnings("serial")
@@ -75,8 +74,9 @@ public class UserDetailsAdapter implements UserDetails {
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		Set<GrantedAuthority> authorities = new HashSet<>();
+		authorities.addAll(account.getRoles());
 		for (Role role : account.getRoles()) {
-			authorities.add(new SimpleGrantedAuthority(role.getName()));
+			authorities.addAll(role.getPermissions());
 		}
 		return authorities;
 	}

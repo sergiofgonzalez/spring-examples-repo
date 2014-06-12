@@ -4,6 +4,7 @@
 <c:url var="homeUrl" value="/home" />
 <c:url var="loginFormUrl" value="/login" />
 <c:url var="logoutUrl" value="/logout" />
+<c:url var="adminConsoleUrl" value="/admin" />
 
 
 <div class="navbar-inverse navbar-default navbar-static-top" role="navigation">
@@ -14,7 +15,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="${homeUrl}">Home</a></li>
                 <li><a href="#">Forums</a></li>
-                <li><a href="#">Admin</a></li>
+                <li><a href="${adminConsoleUrl}">Admin</a></li>
             </ul>
             
             <div class="container">            

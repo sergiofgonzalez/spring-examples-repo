@@ -1,12 +1,13 @@
 package org.joolzminer.examples.sip.domain;
 
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.Set;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
@@ -49,11 +50,14 @@ public class Account extends AbstractEntity {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date dateCreated;
 	
-	@ManyToMany
+	@ManyToMany(fetch = FetchType.EAGER)
 	@JoinTable(name = "account_role",
 				joinColumns = {@JoinColumn(name = "account_id", referencedColumnName = "id")},
 				inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")})
-	private Collection<Role> roles = new HashSet<>();
+	private Set<Role> roles = new HashSet<>();
+
+	@Transient
+	private Set<Permission> permissions;
 	
 	protected Account() {		
 	}
@@ -109,8 +113,16 @@ public class Account extends AbstractEntity {
 		roles.add(role);
 	}
 	
-	public Collection<Role> getRoles() {
-		return Collections.unmodifiableCollection(roles);
+	public Set<Role> getRoles() {
+		return Collections.unmodifiableSet(roles);
+	}
+	
+	public Set<Permission> getPermissions() {
+		Set<Permission> permissions = new HashSet<>();
+		for (Role role : roles) {
+			permissions.addAll(role.getPermissions());
+		}
+		return Collections.unmodifiableSet(permissions);
 	}
 
 	@Override

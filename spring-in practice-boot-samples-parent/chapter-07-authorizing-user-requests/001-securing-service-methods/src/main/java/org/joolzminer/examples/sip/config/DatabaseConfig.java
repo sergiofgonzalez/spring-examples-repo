@@ -45,6 +45,9 @@ public class DatabaseConfig {
 	@Value("${application.dataSource.initializer.scripts.insert}")
 	private String sqlInsertScript;
 
+	@Value("${application.dataSource.initializer.separator:;}")
+	private String sqlSeparator;
+	
 	@Bean(destroyMethod = "close")
 	public DataSource dataSource() {
 		LOGGER.debug("Configuring Datasource");
@@ -69,6 +72,7 @@ public class DatabaseConfig {
 			LOGGER.debug("Initializing Datasource with SQL Scripts");
 			ResourceDatabasePopulator resourceDatabasePopulator = new ResourceDatabasePopulator();
 			resourceDatabasePopulator.addScripts(new ClassPathResource(sqlCreateScript), new ClassPathResource(sqlInsertScript));
+			resourceDatabasePopulator.setSeparator(sqlSeparator);
 			DataSourceInitializer dataSourceInitializer = new DataSourceInitializer();
 			dataSourceInitializer.setDataSource(dataSource);
 			dataSourceInitializer.setDatabasePopulator(resourceDatabasePopulator);

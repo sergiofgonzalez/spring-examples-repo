@@ -27,6 +27,7 @@ application:
 
         initializer:
             enabled: true
+            separator: //
             
             scripts:
                 create: sql/create-schema.sql
