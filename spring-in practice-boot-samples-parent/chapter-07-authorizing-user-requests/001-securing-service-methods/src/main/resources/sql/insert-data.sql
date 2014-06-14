@@ -61,6 +61,14 @@ call assignRoleToUser(@role_faculty, @elvira)//
 call assignRoleToUser(@role_user, @juan)//
 call assignRoleToUser(@role_admin, @juan)//
 
-  
+-- ----------------
+-- BUSINESS DATA --
+-- ----------------
+call createForum('Algebra I', @julia, @forum)//
+call createMessage(@forum, @julia, '2013-09-28 12:34:03', 'What *is* a variable?')//
+
+call createForum('Algebra II/Trigonometry', @julia, @forum)//
+call createMessage(@forum, @julia, '2013-09-29 04:01:39', 'now i know how tall that pyramid is!')//
+
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS//
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS//
