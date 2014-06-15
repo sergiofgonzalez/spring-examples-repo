@@ -35,24 +35,48 @@ public class Message extends AbstractEntity {
 		
 	public Forum getForum() {
 		return forum;
+	}	
+	
+	public void setForum(Forum forum) {
+		this.forum = forum;
 	}
 
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	
 	public String getSubject() {
 		return subject;
+	}
+
+	public void setAuthor(Account author) {
+		this.author = author;
 	}
 	
 	public Account getAuthor() {
 		return author;
 	}
 
+	public void setText(String text) {
+		this.text = text;
+	}
+	
 	public String getText() {
 		return text;
 	}
 
+	public void setDateCreated(Date dateCreated) {
+		this.dateCreated = (dateCreated == null) ? null : (Date) dateCreated;
+	}
+	
 	public Date getDateCreated() {
 		return (dateCreated == null) ? null : (Date) dateCreated.clone();
 	}
 
+	public void setVisible(boolean visible) {
+		this.visible = visible;
+	}
+	
 	public boolean isVisible() {
 		return visible;
 	}	

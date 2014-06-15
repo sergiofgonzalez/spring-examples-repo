@@ -30,7 +30,7 @@ public class Forum extends AbstractEntity {
 	private List<Message> messages = new ArrayList<>();
 	
 	@Transient
-	private boolean calculateMessageStats = false;
+	private boolean calculateMessageStats = true;
 	
 	@Transient
 	private int numVisibleMessages;

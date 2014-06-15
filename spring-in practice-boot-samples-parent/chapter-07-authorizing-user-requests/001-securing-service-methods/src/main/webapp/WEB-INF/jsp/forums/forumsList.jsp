@@ -8,8 +8,8 @@
 	<head>
         <meta charset="utf-8">
         <title>SiP - Forums</title>
-        <link rel="stylesheet" type="text/css" href="static/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="static/css/bootstrap-theme.css">   
+        <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap-theme.css">   
 	</head>
 	<body>
         <%@ include file="../navbar.jspf" %>
@@ -38,13 +38,13 @@
                             </thead>
                             <tbody>
                                 <c:forEach var="forum" items="${forums}">
-                                    <c:url var="forumUrl" value= "/forums/${forum.id}" />
+                                    <c:url var="forumsUrl" value= "/forums/${forum.id}" />
                                     <c:url var="ownerUrl" value= "/accounts/${forum.owner.username}" />                               
                                     
                                     <fmt:formatDate var="date" type="both" timeStyle="short" value="${forum.lastVisibleMessageDate}"/>
                                     
                                     <tr>
-                                        <td><a href="${forumUrl}"><c:out value="${forum.name}"/></a></td>
+                                        <td><a href="${forumsUrl}"><c:out value="${forum.name}"/></a></td>
                                         <td class="text-right">${forum.numVisibleMessages}</td>
                                         <td>
                                             <c:if test="${not empty forum.lastVisibleMessageDate}">

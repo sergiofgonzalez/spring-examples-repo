@@ -20,7 +20,11 @@ public class UserDetailsAdapter implements UserDetails {
 	public Long getId() {
 		return account.getId();
 	}
-	
+		
+	public Account getAccount() {
+		return account;
+	}
+
 	public String getFirstName() {
 		return account.getFirstName();
 	}
