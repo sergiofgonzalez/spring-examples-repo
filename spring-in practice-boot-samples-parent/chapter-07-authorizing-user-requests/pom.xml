@@ -16,6 +16,7 @@
 	
 	<modules>        	
 		<module>001-securing-service-methods</module>
+		<module>002-securing-views</module>
 	</modules>
 	
 </project>
