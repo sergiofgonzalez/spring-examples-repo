@@ -5,44 +5,18 @@ This is the first example of SiP Chapter 7 - Authorizing User Requests:
     
 It has been migrated to Spring Boot and Java Config.
         
-See readme.md for the complete details.				
-
-# Progress
-
-* 2014-06-11: Created the scaffolding. Home page and login page. Users can login/logout. Password Encoder has been disabled.
-
-# ToDO
-
-* (low)  Configure the error page, for authorization messages in particular
-* (med)  Test what happens when no messages in a forum, no forums
-* (low)  Investigate the JS topics, for example in message.jsp there is JS code using JSP!. Also MessageController (block/unblock) message functionality
-* (med)  Clean all the urls (make variables for them) in JSPs
-* (med)  Get the messages ordered by date, Forums by Name (Spring Data)
-* (med)  Add some JavaScript to enable some dynamic behavior in jsps
-* (med)  Externalize all strings into resource bundle properties files
-* (med)  Integrate the forum functionality
-* (low)  Create a Registration form and re-enable the password encoder
-
 
 ## Functionality
-Based on 006-, demonstrates how to use password salting and hashing to prevent anybody from viewing user passwords in the database.
+This example implements a web application with forums in which users can post their messages, edit them, etc. The application leverages Spring Security to protect the execution of services.
+Therefore, an underlying structure of accounts-roles-permissions is established.
+An account is given a role, which inherits a set of fine-grained business permissions.
 
-In this example, the user can register accounts independently of whether it has been authenticated or not.
+For example:
+* The User role is given permissions to read and create messages, but cannot delete them or edit them.
 
-## Components (added/changed over 005-)
+The securization of methods is implemented at service level, using annotations, and there is no control established on the views as a whole. Therefore, a user can access the edit message page, although it will fail with an ugly error message when user clicks on "Save Message". 
 
-### SecurityConfig.java
-The Security Configuration class has been updated to include the password encoder that performs the hashing and salting of the password. First, the PasswordEncoder bean is defined as an instance of StandardPasswordEncoder, which generates a 80-bytes length hashed and salted password.
-Then, the password encoder is configured into the Authentication Manager.
-
-### AccountRepositoryImpl.java
-The AccountRepositoryImpl is updated to perform the hashing and salting of the password prior to storing it in the database.
-
-### sql/create-schema.sq
-The SQL script for the creation of the tables is modified to allow 80-bytes length in the password field of the acount table.
-
-### sql/insert-data.sq
-The insertion of users and passwords has been removed, as the password has to be encoded using the StandardPasswordEncoder algorithm.
-
-### navbar.jspf
-Slightly modified to allow the registration of new accounts when the user is not authenticated.
+## Known Gaps
+* There is no custom page for errors: therefore, expect some ugly page when a user without the proper authorization tries to perform a protected action.
+* There is no JavaScript in place: some interesting alternatives have been used to solve situations such as the deletion confirmation. The original AJAX controllers have been changed for regular controllers.
+* Only some strings have been taken to the i18n folder properties file.

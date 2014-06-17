@@ -37,6 +37,10 @@ public class ForumsService {
 		Forum forum = null;
 		if (initMessages) {
 			forum = forumsRepository.findOneAndFetchMessagesEagerly(id);
+			// No messages in this forum?
+			if (forum == null) {
+				forum = forumsRepository.findOne(id);
+			}
 			return forum;
 		} else {
 			return forumsRepository.findOne(id);
