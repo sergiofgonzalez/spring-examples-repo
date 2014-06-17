@@ -41,13 +41,15 @@
                 
                 <c:if test="${param.saved == true}">
                     <div class="alert alert-success">
-                        Message saved. <a href="/forums/${originalMessage.forum.id}/messages/${originalMessage.id}">View it.</a>
+                        <span class="glyphicon glyphicon-ok"></span>
+                        &nbsp;Message saved. <a href="/forums/${originalMessage.forum.id}/messages/${originalMessage.id}">View it.</a>
                     </div>
                 </c:if>
                 
                 <c:if test="${not originalMessage.visible}">
                     <div class="alert alert-warning">
-                        This message has been blocked. Only administrators and forum moderators can see it.
+                        <span class="glyphicon glyphicon-eye-close"></span>
+                        &nbsp;This message has been blocked. Only administrators and forum moderators can see it.
                     </div>                
                 </c:if>
                 

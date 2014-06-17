@@ -8,4 +8,5 @@ public interface MessageRepository extends Repository<Message, Long>{
 	Message findOne(Long id);
 	Message save(Message message);
 	Message findByForumAndSubject(Forum forum, String messageSubject);
+	void delete(Message message);
 }

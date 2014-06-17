@@ -68,6 +68,13 @@ public class ForumsService {
 		savedMessage.setVisible(message.isVisible());
 	}
 	
+	@Transactional(readOnly = false)
+	@PreAuthorize("hasRole('PERM_DELETE_MESSAGES')")
+	public void deleteMessage(Message message) {
+		messageRepository.delete(message);
+	}
+	
+	
 	private void validateMessage(Message message, Errors errors) {
 		if (messageRepository.findByForumAndSubject(message.getForum(),
 				message.getSubject()) != null) {

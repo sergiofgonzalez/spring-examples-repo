@@ -103,7 +103,7 @@ public class MessageController {
 	}
 
 	@RequestMapping(value = "/forums/{forumId}/messages/{messageId}/visible", method = RequestMethod.GET)
-	public String putMessageVisibility(@PathVariable("forumId") Long forumId, @PathVariable("messageId") Long messageId, 
+	public String getMessageVisibility(@PathVariable("forumId") Long forumId, @PathVariable("messageId") Long messageId, 
 										@RequestParam(value = "block") boolean block, Model model) {
 		Message message = getMessageFromForum(forumId, messageId);
 		message.setVisible(!block);
@@ -111,6 +111,20 @@ public class MessageController {
 		model.addAttribute(message);
 		return "redirect:/forums/" + forumId + "/messages/" + messageId;
 	}
+	
+	@RequestMapping(value = "/forums/{forumId}/messages/{messageId}/delete", method = RequestMethod.GET)
+	public String getMessageDeletion(@PathVariable("forumId") Long forumId, @PathVariable("messageId") Long messageId, 
+										@RequestParam(value = "confirm") boolean isConfirmed, Model model) {
+
+		if (!isConfirmed) {
+			return "redirect:/forums/" + forumId + "/messages/" + messageId + "/?confirm=true";
+		} else {
+			Message message = getMessageFromForum(forumId, messageId);
+			forumsService.deleteMessage(message);
+			return "redirect:/forums/" + forumId + "/?deleted=true";
+		}
+	}
+	
 
 	private Message getMessageFromForum(Long forumId, Long messageId) {
 		Message unverifiedMessage = forumsService.getMessage(messageId);
