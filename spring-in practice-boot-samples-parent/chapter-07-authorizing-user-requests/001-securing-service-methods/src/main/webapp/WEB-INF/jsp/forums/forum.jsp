@@ -30,7 +30,7 @@
                         <span class="pull-right">
                             <small>
                                 <span class="glyphicon glyphicon-user"></span>
-                                &nbsp;Forum moderated by <a href="#"><c:out value="${forum.owner.fullName}"/></a>
+                                &nbsp;Forum moderated by <a href="/accounts/${forum.owner.username}"><c:out value="${forum.owner.fullName}"/></a>
                             </small>
                         </span>
                     </h1>
@@ -44,7 +44,7 @@
                 
                 <c:choose>
                     <c:when test="${empty forum.messages}">
-                        <p>Be the first to <a href="#">post a message</a></p>
+                        <p>Be the first to <a href="/forums/${forum.id}/messages/new">post a message</a></p>
                     </c:when>
                     <c:otherwise>
                         <div class="well well-sm">
@@ -61,7 +61,7 @@
                             <tbody>
                                 <c:forEach var="message" items="${forum.messages}">
                                     <c:url var="messageUrl" value="/forums/${forum.id}/messages/${message.id}" />
-                                    <c:url var="authorUrl" value="#" />
+                                    <c:url var="authorUrl" value="/accounts/${message.author.username}" />
                                     <fmt:formatDate var="date" type="both" timeStyle="short" value="${message.dateCreated}"/>
                                     <tr>
                                         <td>
@@ -72,7 +72,7 @@
                                         </td>
                                         <td>
                                             <span class="glyphicon glyphicon-user"></span>
-                                            <a href="#"><c:out value="${message.author.fullName}"/></a>
+                                            <a href="${authorUrl}"><c:out value="${message.author.fullName}"/></a>
                                         </td>
                                         <td>
                                             <span class="glyphicon glyphicon-calendar"></span>

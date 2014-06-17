@@ -70,7 +70,7 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Author</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static"><span class="glyphicon glyphicon-user"></span>&nbsp;<a href="#"><c:out value="${originalMessage.author.fullName}"/></a></p>
+                            <p class="form-control-static"><span class="glyphicon glyphicon-user"></span>&nbsp;<a href="/accounts/${originalMessage.author.username}"><c:out value="${originalMessage.author.fullName}"/></a></p>
                         </div>                        
                     </div>
                     <div class="form-group">

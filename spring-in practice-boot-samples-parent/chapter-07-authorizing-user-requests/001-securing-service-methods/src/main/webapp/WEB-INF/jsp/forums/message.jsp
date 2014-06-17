@@ -31,7 +31,7 @@
                         <span class="pull-right">
                             <small>
                                 <span class="glyphicon glyphicon-user"></span>
-                                &nbsp;Forum moderated by <a href="#"><c:out value="${message.forum.owner.fullName}"/></a>
+                                &nbsp;Forum moderated by <a href="/accounts/${message.forum.owner.username}"><c:out value="${message.forum.owner.fullName}"/></a>
                             </small>
                         </span>
                     </h3>
@@ -54,7 +54,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         Posted by <span class="glyphicon glyphicon-user"></span>
-                        <a href="#"><c:out value="${message.author.fullName}"/></a>
+                        <a href="/accounts/${message.author.username}"><c:out value="${message.author.fullName}"/></a>
                         on <span class="glyphicon glyphicon-calendar"></span>&nbsp;
                         <fmt:formatDate type="both" timeStyle="short" value="${message.dateCreated}"/>
                     </div>
