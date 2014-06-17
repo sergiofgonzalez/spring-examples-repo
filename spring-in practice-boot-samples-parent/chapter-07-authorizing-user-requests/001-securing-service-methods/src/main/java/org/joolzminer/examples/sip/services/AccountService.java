@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional(readOnly = true)
+@PreAuthorize("denyAll")
 public class AccountService {
 	
 	@SuppressWarnings("unused")
