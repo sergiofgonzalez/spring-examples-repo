@@ -26,7 +26,7 @@ application:
         password: Accenture1
 
         initializer:
-            enabled: false
+            enabled: true
             separator: //
             
             scripts:

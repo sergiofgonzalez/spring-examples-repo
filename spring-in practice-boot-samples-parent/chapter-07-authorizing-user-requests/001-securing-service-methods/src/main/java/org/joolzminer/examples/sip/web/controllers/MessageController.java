@@ -89,14 +89,14 @@ public class MessageController {
 			@ModelAttribute @Valid Message messageDto, BindingResult result,
 			Model model) {
 		Message message = getMessageFromForum(forumId, messageId);
-		message.setSubject(messageDto.getSubject());
-		message.setText(messageDto.getText());
-		forumsService.updateMessageSubjectAndText(message);
-
 		if (result.hasErrors()) {
 			model.addAttribute("originalMessage", message);
 			return "forums/editMessageForm";
 		} else {
+			
+			message.setSubject(messageDto.getSubject());
+			message.setText(messageDto.getText());
+			forumsService.updateMessageSubjectAndText(message);
 			return "redirect:/forums/" + forumId + "/messages/" + messageId
 					+ "/edit?saved=true";
 		}

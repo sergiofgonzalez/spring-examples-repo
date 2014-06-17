@@ -70,5 +70,9 @@ call createMessage(@forum, @julia, '2013-09-28 12:34:03', 'What *is* a variable?
 call createForum('Algebra II/Trigonometry', @julia, @forum)//
 call createMessage(@forum, @julia, '2013-09-29 04:01:39', 'now i know how tall that pyramid is!')//
 
+call createForum('Calculus II', @elvira, @forum)//
+call createMessage(@forum, @elvira, '2013-09-27 12:34:56', 'Relationship between differentiation and integration')//
+call createMessage(@forum, @daniel, '2013-09-30 12:43:45', 'Integrating a volume')//
+
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS//
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS//

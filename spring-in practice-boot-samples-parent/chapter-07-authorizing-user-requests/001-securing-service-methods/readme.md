@@ -13,7 +13,7 @@ See readme.md for the complete details.
 
 # ToDO
 
-* (low)  Configure the error page
+* (low)  Configure the error page, for authorization messages in particular
 * (med)  Test what happens when no messages in a forum, no forums
 * (low)  Investigate the JS topics, for example in message.jsp there is JS code using JSP!. Also MessageController (block/unblock) message functionality
 * (med)  Clean all the urls (make variables for them) in JSPs

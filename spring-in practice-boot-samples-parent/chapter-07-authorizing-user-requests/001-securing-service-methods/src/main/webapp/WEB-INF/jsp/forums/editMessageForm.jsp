@@ -28,7 +28,7 @@
                 <ol class="breadcrumb">
                     <li><a href="${homeUrl}">Home</a></li>
                     <li><a href="${forumsUrl}">Forums</a></li>
-                    <li><a href="${forumsUrl}/${originalMessage.forum.id}">${message.forum.name}</a></li>
+                    <li><a href="${forumsUrl}/${originalMessage.forum.id}">${originalMessage.forum.name}</a></li>
                     <li><a href="${forumsUrl}/${originalMessage.forum.id}/messages/${originalMessage.id}">${originalMessage.subject}</a></li>
                     <li><span  class="glyphicon glyphicon-hand-right"></span></li>
                 </ol>
@@ -64,8 +64,9 @@
                         <label class="col-sm-2 control-label">Subject</label>
                         <div class="col-sm-10">
                             <form:input type="text" path="subject" class="form-control" placeholder="Enter Message Subject"/>
+                            <form:errors path="subject" htmlEscape="true" cssClass="error" />
                         </div>
-                        <form:errors path="subject" htmlEscape="true" cssClass="error" />                        
+                                                
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Author</label>
@@ -83,8 +84,9 @@
                         <label class="col-sm-2 control-label">Text</label>
                         <div class="col-sm-10">
                             <form:textarea rows="10" path="text" class="form-control" placeholder="Enter Message Text"></form:textarea>
+                            <form:errors path="text" htmlEscape="true" cssClass="error" />
                         </div>
-                        <form:errors path="text" htmlEscape="true" cssClass="error" />                        
+                        
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">

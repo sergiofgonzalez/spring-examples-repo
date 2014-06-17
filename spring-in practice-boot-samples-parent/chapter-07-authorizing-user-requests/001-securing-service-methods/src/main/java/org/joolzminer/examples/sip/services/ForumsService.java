@@ -1,11 +1,12 @@
 package org.joolzminer.examples.sip.services;
 
 import java.util.List;
-
 import org.joolzminer.examples.sip.domain.Forum;
 import org.joolzminer.examples.sip.domain.Message;
 import org.joolzminer.examples.sip.repository.ForumsRepository;
 import org.joolzminer.examples.sip.repository.MessageRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
@@ -17,6 +18,9 @@ import org.springframework.validation.Errors;
 @PreAuthorize("denyAll")
 public class ForumsService {
 
+	@SuppressWarnings("unused")
+	private static final Logger LOGGER = LoggerFactory.getLogger(ForumsService.class);
+	
 	@Autowired
 	private ForumsRepository forumsRepository;
 
