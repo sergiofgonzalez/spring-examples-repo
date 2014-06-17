@@ -37,8 +37,9 @@
                     </h3>
                 </div>
                        
-                <c:if test="${not message.visible} == true">
+                <c:if test="${not message.visible}">
                     <div class="alert alert-warning">
+                        <span class="glyphicon glyphicon-eye-close"></span>
                         This message has been blocked. Only administrators and forum moderators can see it.
                     </div>                
                 </c:if>         
@@ -57,8 +58,14 @@
                 
                 <div class="btn-group btn-group-justified">
                     <a class="btn btn-primary" href="/forums/${message.forum.id}/messages/${message.id}/edit" title="Edit message subject, text or visibility"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Edit Message</a>
-                    <a class="btn btn-warning" href="#" title="Hide messages from users without deleting it"><span class="glyphicon glyphicon-eye-close"></span>&nbsp;Block Message</a>
-                    <a class="btn btn-success" href="#" title="Allow users to see this message again"><span class="glyphicon glyphicon-eye-open"></span>&nbsp;Unblock Message</a>
+                    <c:choose>
+                        <c:when test="${message.visible}">
+                            <a class="btn btn-warning" href="/forums/${message.forum.id}/messages/${message.id}/visible?block=true" title="Hide messages from users without deleting it"><span class="glyphicon glyphicon-eye-close"></span>&nbsp;Block Message</a>
+                        </c:when>
+                        <c:otherwise>
+                            <a class="btn btn-success" href="/forums/${message.forum.id}/messages/${message.id}/visible?block=false" title="Allow users to see this message again"><span class="glyphicon glyphicon-eye-open"></span>&nbsp;Unblock Message</a>
+                        </c:otherwise>
+                    </c:choose>                    
                     <a class="btn btn-danger" href="#" title="Permanently delete this message"><span class="glyphicon glyphicon-remove-sign"></span>&nbsp;Delete Message</a>
                 </div>
             </div>

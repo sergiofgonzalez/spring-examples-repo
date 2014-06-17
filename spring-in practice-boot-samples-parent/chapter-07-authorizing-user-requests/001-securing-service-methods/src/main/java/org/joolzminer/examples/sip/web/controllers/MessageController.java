@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class MessageController {
@@ -83,20 +84,32 @@ public class MessageController {
 	}
 
 	@RequestMapping(value = "/forums/{forumId}/messages/{messageId}", method = RequestMethod.PUT)
-	public String putMessageForm(@PathVariable("forumId") Long forumId,	@PathVariable("messageId") Long messageId,
-									@ModelAttribute @Valid Message messageDto, BindingResult result,
-									Model model) {
+	public String putMessageForm(@PathVariable("forumId") Long forumId,
+			@PathVariable("messageId") Long messageId,
+			@ModelAttribute @Valid Message messageDto, BindingResult result,
+			Model model) {
 		Message message = getMessageFromForum(forumId, messageId);
 		message.setSubject(messageDto.getSubject());
 		message.setText(messageDto.getText());
 		forumsService.updateMessageSubjectAndText(message);
-		
+
 		if (result.hasErrors()) {
 			model.addAttribute("originalMessage", message);
 			return "forums/editMessageForm";
 		} else {
-			return "redirect:/forums/" + forumId + "/messages/" + messageId + "/edit?saved=true";
+			return "redirect:/forums/" + forumId + "/messages/" + messageId
+					+ "/edit?saved=true";
 		}
+	}
+
+	@RequestMapping(value = "/forums/{forumId}/messages/{messageId}/visible", method = RequestMethod.GET)
+	public String putMessageVisibility(@PathVariable("forumId") Long forumId, @PathVariable("messageId") Long messageId, 
+										@RequestParam(value = "block") boolean block, Model model) {
+		Message message = getMessageFromForum(forumId, messageId);
+		message.setVisible(!block);
+		forumsService.updateMessageVisibility(message);
+		model.addAttribute(message);
+		return "redirect:/forums/" + forumId + "/messages/" + messageId;
 	}
 
 	private Message getMessageFromForum(Long forumId, Long messageId) {

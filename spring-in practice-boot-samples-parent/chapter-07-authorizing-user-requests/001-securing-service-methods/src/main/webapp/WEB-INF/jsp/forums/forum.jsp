@@ -66,8 +66,8 @@
                                     <tr>
                                         <td>
                                             <a href="${messageUrl}"><c:out value="${message.subject}"/></a>
-                                            <c:if test="${not message.visible }">
-                                                <b>[BLOCKED]</b>
+                                            <c:if test="${not message.visible}">
+                                                &nbsp;<span class="glyphicon glyphicon-eye-close"></span><b>&nbsp;[BLOCKED]</b>
                                             </c:if>
                                         </td>
                                         <td>

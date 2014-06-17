@@ -13,6 +13,7 @@ See readme.md for the complete details.
 
 # ToDO
 
+* (low)  Investigate the JS topics, for example in message.jsp there is JS code using JSP!. Also MessageController (block/unblock) message functionality
 * (med)  Clean all the urls (make variables for them) in JSPs
 * (med)  Get the messages ordered by date, Forums by Name
 * (med)  Add some JavaScript to enable some dynamic behavior in jsps

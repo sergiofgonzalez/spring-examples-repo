@@ -61,6 +61,13 @@ public class ForumsService {
 		savedMessage.setText(message.getText());
 	}
 	
+	@Transactional(readOnly = false)
+	@PreAuthorize("hasRole('PERM_ADMIN_MESSAGES')")
+	public void updateMessageVisibility(Message message) {
+		Message savedMessage = messageRepository.findOne(message.getId());
+		savedMessage.setVisible(message.isVisible());
+	}
+	
 	private void validateMessage(Message message, Errors errors) {
 		if (messageRepository.findByForumAndSubject(message.getForum(),
 				message.getSubject()) != null) {
