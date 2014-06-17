@@ -27,12 +27,9 @@ public class MessageController {
 
 	@InitBinder("message")
 	public void initBinder(WebDataBinder binder) {
-		binder.setAllowedFields(new String[] {
-				"subject",
-				"text"
-		});
+		binder.setAllowedFields(new String[] { "subject", "text" });
 	}
-	
+
 	@SuppressWarnings("unused")
 	private static final Logger LOGGER = LoggerFactory
 			.getLogger(MessageController.class);
@@ -58,20 +55,47 @@ public class MessageController {
 
 	@RequestMapping(value = "/forums/{forumId}/messages/new", method = RequestMethod.POST)
 	public String postMessageForm(@PathVariable("forumId") Long forumId,
-							@ModelAttribute @Valid Message message, BindingResult result) {
-		
+			@ModelAttribute @Valid Message message, BindingResult result) {
+
 		message.setForum(forumsService.getForum(forumId, false));
-		
+
 		SecurityContext securityContext = SecurityContextHolder.getContext();
 		Authentication authentication = securityContext.getAuthentication();
-		UserDetailsAdapter userDetailsAdapter = (UserDetailsAdapter)authentication.getPrincipal();
+		UserDetailsAdapter userDetailsAdapter = (UserDetailsAdapter) authentication
+				.getPrincipal();
 		message.setAuthor(userDetailsAdapter.getAccount());
 		message.setVisible(true);
 		forumsService.createMessage(message, result);
 		if (result.hasErrors()) {
 			return "forums/newMessageForm";
-		} else {		
+		} else {
 			return "redirect:/forums/" + forumId;
+		}
+	}
+
+	@RequestMapping(value = "/forums/{forumId}/messages/{messageId}/edit", method = RequestMethod.GET)
+	public String getEditMessageForm(@PathVariable("forumId") Long forumId,
+			@PathVariable("messageId") Long messageId, Model model) {
+		Message message = getMessageFromForum(forumId, messageId);
+		model.addAttribute("originalMessage", message);
+		model.addAttribute(message);
+		return "forums/editMessageForm";
+	}
+
+	@RequestMapping(value = "/forums/{forumId}/messages/{messageId}", method = RequestMethod.PUT)
+	public String putMessageForm(@PathVariable("forumId") Long forumId,	@PathVariable("messageId") Long messageId,
+									@ModelAttribute @Valid Message messageDto, BindingResult result,
+									Model model) {
+		Message message = getMessageFromForum(forumId, messageId);
+		message.setSubject(messageDto.getSubject());
+		message.setText(messageDto.getText());
+		forumsService.updateMessageSubjectAndText(message);
+		
+		if (result.hasErrors()) {
+			model.addAttribute("originalMessage", message);
+			return "forums/editMessageForm";
+		} else {
+			return "redirect:/forums/" + forumId + "/messages/" + messageId + "/edit?saved=true";
 		}
 	}
 

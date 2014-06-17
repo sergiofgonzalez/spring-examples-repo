@@ -56,7 +56,7 @@
                 </div>
                 
                 <div class="btn-group btn-group-justified">
-                    <a class="btn btn-primary" href="#" title="Edit message subject, text or visibility"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Edit Message</a>
+                    <a class="btn btn-primary" href="/forums/${message.forum.id}/messages/${message.id}/edit" title="Edit message subject, text or visibility"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Edit Message</a>
                     <a class="btn btn-warning" href="#" title="Hide messages from users without deleting it"><span class="glyphicon glyphicon-eye-close"></span>&nbsp;Block Message</a>
                     <a class="btn btn-success" href="#" title="Allow users to see this message again"><span class="glyphicon glyphicon-eye-open"></span>&nbsp;Unblock Message</a>
                     <a class="btn btn-danger" href="#" title="Permanently delete this message"><span class="glyphicon glyphicon-remove-sign"></span>&nbsp;Delete Message</a>

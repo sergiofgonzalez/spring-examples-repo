@@ -44,6 +44,7 @@ public class ForumsService {
 		return messageRepository.findOne(id);
 	}
 
+	@Transactional(readOnly = false)
 	@PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
 	public void createMessage(Message message, Errors errors) {
 		validateMessage(message, errors);
@@ -52,6 +53,14 @@ public class ForumsService {
 		}
 	}
 
+	@Transactional(readOnly = false)
+	@PreAuthorize("hasRole('PERM_UPDATE_MESSAGES')")
+	public void updateMessageSubjectAndText(Message message) {
+		Message savedMessage = messageRepository.findOne(message.getId());
+		savedMessage.setSubject(message.getSubject());
+		savedMessage.setText(message.getText());
+	}
+	
 	private void validateMessage(Message message, Errors errors) {
 		if (messageRepository.findByForumAndSubject(message.getForum(),
 				message.getSubject()) != null) {

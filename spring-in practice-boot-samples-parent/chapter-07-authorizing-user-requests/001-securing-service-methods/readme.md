@@ -13,7 +13,10 @@ See readme.md for the complete details.
 
 # ToDO
 
-* (high) Integrate SiP new Authentication tables and make the login work with those tables
+* (med)  Clean all the urls (make variables for them) in JSPs
+* (med)  Get the messages ordered by date, Forums by Name
+* (med)  Add some JavaScript to enable some dynamic behavior in jsps
+* (med)  Externalize all strings into resource bundle properties files
 * (med)  Integrate the forum functionality
 * (low)  Create a Registration form and re-enable the password encoder
 

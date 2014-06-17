@@ -15,7 +15,6 @@
 	<packaging>pom</packaging>
 	
 	<modules>        	
-	    <module>tmp-securing-service-methods</module>
 		<module>001-securing-service-methods</module>
 	</modules>
 	
