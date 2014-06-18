@@ -12,8 +12,3 @@ Certains parts of the application are displayed or not using <security:authorize
 * access="hasRole('PERM_*')" to check for permissions
 * access="hasRole('ROLE_*')" to check for roles (admin, user, etc.)
 * access="isAuthenticated()"/"isAnonymous()" to check whether the user has been authenticated or not
-
-## Known Gaps
-* There is no custom page for errors: therefore, expect some ugly page when a user without the proper authorization tries to perform a protected action.
-* There is no JavaScript in place: some interesting alternatives have been used to solve situations such as the deletion confirmation. The original AJAX controllers have been changed for regular controllers.
-* Only some strings have been taken to the i18n folder properties file.
