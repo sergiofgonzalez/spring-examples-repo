@@ -4,3 +4,5 @@ Examples from SiP Chapter 7 - Authorizing User Requests
 
 ## Projects
 * 001-securing-service-methods
+* 002-securing-views
+* 003-securing-web-resources
