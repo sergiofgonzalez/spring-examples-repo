@@ -18,6 +18,7 @@
 		<module>001-securing-service-methods</module>
 		<module>002-securing-views</module>
 		<module>003-securing-web-resources</module>
+		<module>004-method-authorization-using-acls</module>
 	</modules>
 	
 </project>
