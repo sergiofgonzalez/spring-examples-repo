@@ -7,3 +7,4 @@ Examples from SiP Chapter 7 - Authorizing User Requests
 * 002-securing-views
 * 003-securing-web-resources
 * 004-method-authorization-using-acls
+* 005-view-authorization-using-acls
