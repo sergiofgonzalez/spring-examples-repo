@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<application>
+    <session id="0000000002" reliability="0.430113">
+        <input>
+            <marker dimension="0.100000" unit_measure="m" />
+            <photos>
+                <photo filename="..\0000000002\0000000002.webp" id="54537" />
+            </photos>
+            <templates calibration_id="2" category_descr="GondolaDesodorante" category_file="..\Calibration" exp_rr="0.9" known_precision="0.85" known_recall="0.8">
+                <template id="2959" name="axe_aero_ap_apollo_90g" output_color="#66FF1">
+                    <face id="F" type="F" width="5.3000000000000007" height="14.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../axe_aero_ap_apollo_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2960" name="axe_aero_bs_apollo_113g" output_color="#FF661">
+                    <face id="F" type="F" width="5.3000000000000007" height="14.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../axe_aero_bs_apollo_113g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2961" name="axe_aerosol_b_spray_excite_113g-160ml" output_color="#3399FF">
+                    <face id="F" type="F" width="5.3000000000000007" height="14.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../axe_aerosol_b_spray_excite_113g-160ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2962" name="axe_dark_temptation_nl_aerosol_intermediario_160ml-113g" output_color="#339900">
+                    <face id="F" type="F" width="5.3000000000000007" height="14.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../axe_dark_temptation_nl_aerosol_intermediario_160ml-113g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2963" name="axe_deo_aer_ap_dark_temp_sec12x90g-152ml" output_color="#6633CC">
+                    <face id="F" type="F" width="5.3000000000000007" height="14.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../axe_deo_aer_ap_dark_temp_sec12x90g-152ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2964" name="axe_deo_aer_ap_excite_12x90g" output_color="#66FF00">
+                    <face id="F" type="F" width="5.3000000000000007" height="14.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../axe_deo_aer_ap_excite_12x90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2965" name="desod_aero_axe_excite_90ml" output_color="#FF6600">
+                    <face id="F" type="F" width="4.5" height="13.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_axe_excite_90ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2966" name="desod_aero_axe_final_edition_2012_113g" output_color="#3399FF">
+                    <face id="F" type="F" width="5.3000000000000007" height="14.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_axe_final_edition_2012_113g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2967" name="desod_aero_axe_final_edition_2012_58g" output_color="#33991">
+                    <face id="F" type="F" width="4.5" height="13.700000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_axe_final_edition_2012_58g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2968" name="desod_aero_axe_seco_ultra_focos_90g" output_color="#6633CC">
+                    <face id="F" type="F" width="5.3000000000000007" height="14.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_axe_seco_ultra_focos_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2969" name="desod_aero_axe_twist_113g" output_color="#66FF1">
+                    <face id="F" type="F" width="5.3000000000000007" height="14.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_axe_twist_113g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2930" name="desod_aero_bi-o_clarify_renov_90g" output_color="#FF661">
+                    <face id="F" type="F" width="4.5" height="18.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_clarify_renov_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2931" name="desod_aero_bi-o_clarity_120g_gt_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="22.200000000000003" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_clarity_120g_gt_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2932" name="desod_aero_bi-o_clarity_90g" output_color="#339900">
+                    <face id="F" type="F" width="4.5" height="18.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_clarity_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2933" name="desod_aero_bi-o_for_men_extreme_80_90g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="18.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_for_men_extreme_80_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2934" name="desod_aero_bi-o_fresh_90g" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="18.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_fresh_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2935" name="desod_aero_bi-o_invisible_90g" output_color="#FF6600">
+                    <face id="F" type="F" width="4.5" height="18.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_invisible_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2936" name="desod_aero_bi-o_men_protection_5_non_stop_90g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="18.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_men_protection_5_non_stop_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2937" name="desod_aero_bi-o_mineral_dry_care_120g_gt_50ml" output_color="#33991">
+                    <face id="F" type="F" width="4.6000000000000005" height="22.200000000000003" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_mineral_dry_care_120g_gt_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2938" name="desod_aero_bi-o_mineral_dry_power_120g_gt_50ml" output_color="#6633CC">
+                    <face id="F" type="F" width="4.6000000000000005" height="22.200000000000003" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_mineral_dry_power_120g_gt_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2939" name="desod_aero_bi-o_mineral_men_dry_power_90g_mpack_2_un_40p_de_desconto" output_color="#66FF1">
+                    <face id="F" type="F" width="9.2000000000000011" height="18.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_mineral_men_dry_power_90g_mpack_2_un_40p_de_desconto_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2940" name="desod_aero_bi-o_mineral_men_extreme_ice_90g" output_color="#FF661">
+                    <face id="F" type="F" width="4.5" height="18.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_mineral_men_extreme_ice_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2941" name="desod_aero_bi-o_protection_5_bi-o_eficacia_90g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="18.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_protection_5_bi-o_eficacia_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2942" name="desod_aero_bi-o_relax_90g" output_color="#339900">
+                    <face id="F" type="F" width="4.5" height="18" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_relax_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2943" name="desod_aero_bi-o_sensitive_90g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="18.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_sensitive_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2944" name="desod_aero_bi-o_soft_90g" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="18.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_bi-o_soft_90g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2973" name="desod_aero_dove_advanced_care_hair_minimising_100g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_advanced_care_hair_minimising_100g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2974" name="desod_aero_dove_clear_tone_100g" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="18.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_clear_tone_100g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2975" name="desod_aero_dove_go_fresh_pepino_e_cha_verde_100g" output_color="#FF6600">
+                    <face id="F" type="F" width="4.5" height="18.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_go_fresh_pepino_e_cha_verde_100g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2976" name="desod_aero_dove_men_+_care_clean_comfort_89g_mpack_2_un_50p_desconto_na_segunda_unidade" output_color="#3399FF">
+                    <face id="F" type="F" width="9.3" height="17.5" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_men_+_care_clean_comfort_89g_mpack_2_un_50p_desconto_na_segunda_unidade_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2977" name="desod_aero_dove_men_+_care_extra_fresh_89g" output_color="#33991">
+                    <face id="F" type="F" width="4.5" height="17.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_men_+_care_extra_fresh_89g_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4.5" height="17.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_men_+_care_extra_fresh_89g_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="2978" name="desod_aero_dove_men_+_care_silver_control_89g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="17.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_men_+_care_silver_control_89g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2979" name="desod_aero_dove_natural_care_100g" output_color="#66FF1">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_natural_care_100g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2980" name="desod_aero_dove_original_100g_mpack_2_un_50p_de_desconto_na_segunda_unidade" output_color="#FF661">
+                    <face id="F" type="F" width="9.6000000000000014" height="18.900000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_original_100g_mpack_2_un_50p_de_desconto_na_segunda_unidade_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2981" name="desod_aero_dove_pure_100g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="18.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_dove_pure_100g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2953" name="desod_aero_gillette_3x_sport_106g" output_color="#6633CC">
+                    <face id="F" type="F" width="5.3000000000000007" height="13.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_gillette_3x_sport_106g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2954" name="desod_aero_gillette_x-dry_sport_105g" output_color="#66FF00">
+                    <face id="F" type="F" width="5.3000000000000007" height="13.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_gillette_x-dry_sport_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2955" name="desod_aero_gillette_x-dry_ultimate_fresh_105g" output_color="#FF6600">
+                    <face id="F" type="F" width="5.3000000000000007" height="13.5" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_gillette_x-dry_ultimate_fresh_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2916" name="desod_aero_nivea_clear_skin_92g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_clear_skin_92g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2917" name="desod_aero_nivea_double_effect_100g" output_color="#33991">
+                    <face id="F" type="F" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_double_effect_100g_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_double_effect_100g_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="2918" name="desod_aero_nivea_dry_comfort_121g_gt_50ml" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="21.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_dry_comfort_121g_gt_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2919" name="desod_aero_nivea_dry_comfort_91g" output_color="#66FF1">
+                    <face id="F" type="F" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_dry_comfort_91g_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_dry_comfort_91g_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="2920" name="desod_aero_nivea_dry_comfort_91g_mpack_2_un_20p_de_desconto" output_color="#FF661">
+                    <face id="F" type="F" width="9" height="17.5" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_dry_comfort_91g_mpack_2_un_20p_de_desconto_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2921" name="desod_aero_nivea_for_men_dry_impact_92g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_for_men_dry_impact_92g_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_for_men_dry_impact_92g_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="2922" name="desod_aero_nivea_for_men_sport_92g" output_color="#339900">
+                    <face id="F" type="F" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_for_men_sport_92g_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_for_men_sport_92g_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="2923" name="desod_aero_nivea_pearl_n_beauty_90g_mpack_2_un_gt_1_sabonete_liquido_250ml" output_color="#6633CC">
+                    <face id="F" type="F" width="19.700000000000003" height="17.900000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_pearl_n_beauty_90g_mpack_2_un_gt_1_sabonete_liquido_250ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2924" name="desod_aero_nivea_pearl_n_beauty_92g" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_pearl_n_beauty_92g_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_pearl_n_beauty_92g_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="2925" name="desod_aero_nivea_sensitive_n_pure_93g" output_color="#FF6600">
+                    <face id="F" type="F" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_sensitive_n_pure_93g_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4.5" height="17.400000000000002" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_nivea_sensitive_n_pure_93g_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="3002" name="desod_aero_rexona_ebony_105g" output_color="#339900">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_ebony_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3003" name="desod_aero_rexona_men_adventure_105g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_men_adventure_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3004" name="desod_aero_rexona_men_aquashield_105g" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_men_aquashield_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3005" name="desod_aero_rexona_men_extreme_105g" output_color="#FF6600">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_men_extreme_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3006" name="desod_aero_rexona_men_quantum_105g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_men_quantum_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3007" name="desod_aero_rexona_men_sensitive_105g" output_color="#33991">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_men_sensitive_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3008" name="desod_aero_rexona_men_sportfan_105g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_men_sportfan_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3009" name="desod_aero_rexona_men_super_hero_105g" output_color="#66FF1">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_men_super_hero_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3010" name="desod_aero_rexona_men_v12_tuning_105g" output_color="#FF661">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_men_v12_tuning_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3011" name="desod_aero_rexona_powder_105g_gt_1_smostra_do_desodorante_para_pes" output_color="#3399FF">
+                    <face id="F" type="F" width="8.7000000000000011" height="19.1" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_powder_105g_gt_1_smostra_do_desodorante_para_pes_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3012" name="desod_aero_rexona_sexy_105g" output_color="#339900">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_sexy_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3013" name="desod_aero_rexona_women_active_emotion_105g" output_color="#6633CC">
+                    <face id="F" type="F" width="5" height="18.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_women_active_emotion_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3014" name="desod_aero_rexona_women_bamboo_105g_mpack_2_un_20p_de_desconto" output_color="#66FF00">
+                    <face id="F" type="F" width="9.7000000000000011" height="19" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_women_bamboo_105g_mpack_2_un_20p_de_desconto_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3015" name="desod_aero_rexona_women_cotton_64g" output_color="#FF6600">
+                    <face id="F" type="F" width="4.5" height="13.700000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_women_cotton_64g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3016" name="desod_aero_rexona_women_extra_fresh_105g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_women_extra_fresh_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3017" name="desod_aero_rexona_women_happy_105g" output_color="#33991">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_women_happy_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3018" name="desod_aero_rexona_women_natural_protection_105g" output_color="#6633CC">
+                    <face id="F" type="F" width="5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_women_natural_protection_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3019" name="desod_aero_rexona_women_powder_105g_mpack_2_un_20p_de_desconto" output_color="#66FF1">
+                    <face id="F" type="F" width="9.7000000000000011" height="19" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_women_powder_105g_mpack_2_un_20p_de_desconto_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3020" name="desod_aero_rexona_women_powder_64g" output_color="#FF661">
+                    <face id="F" type="F" width="4.5" height="13.700000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_aero_rexona_women_powder_64g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2970" name="desod_roll_axe_seco_apollo_50ml" output_color="#FF661">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_axe_seco_apollo_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2971" name="desod_roll_axe_seco_dark_temptation_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_axe_seco_dark_temptation_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2972" name="desod_roll_axe_seco_excite_50ml" output_color="#339900">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_axe_seco_excite_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2945" name="desod_roll_bi-o_clarify_renov_50ml" output_color="#FF6600">
+                    <face id="F" type="F" width="5.4" height="8.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_bi-o_clarify_renov_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2946" name="desod_roll_bi-o_clarity_50ml_mpack_2_un_40p_de_desconto" output_color="#3399FF">
+                    <face id="F" type="F" width="11.3" height="8.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_bi-o_clarity_50ml_mpack_2_un_40p_de_desconto_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2947" name="desod_roll_bi-o_invisible_50ml" output_color="#33991">
+                    <face id="F" type="F" width="5.5" height="8.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_bi-o_invisible_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2948" name="desod_roll_bi-o_invisible_50ml_mpack_2_un_40p_de_desconto" output_color="#6633CC">
+                    <face id="F" type="F" width="11.3" height="8.5" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_bi-o_invisible_50ml_mpack_2_un_40p_de_desconto_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2949" name="desod_roll_bi-o_men_protection_5_non_stop_50ml" output_color="#66FF1">
+                    <face id="F" type="F" width="5.5" height="8.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_bi-o_men_protection_5_non_stop_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2950" name="desod_roll_bi-o_mineral_men_dry_power_50ml_mpack_2_un_40p_de_desconto" output_color="#FF661">
+                    <face id="F" type="F" width="11.3" height="8.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_bi-o_mineral_men_dry_power_50ml_mpack_2_un_40p_de_desconto_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2951" name="desod_roll_bi-o_mineral_men_extreme_ice_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="5.5" height="8.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_bi-o_mineral_men_extreme_ice_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2952" name="desod_roll_bi-o_protection_5_bi-o_eficacia_50ml" output_color="#339900">
+                    <face id="F" type="F" width="5.5" height="8.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_bi-o_protection_5_bi-o_eficacia_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2989" name="desod_roll_dove_advanced_care_dermo_aclarant_50ml" output_color="#66FF1">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_advanced_care_dermo_aclarant_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3038" name="desod_roll_dove_beauty_finish_50ml" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_beauty_finish_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2990" name="desod_roll_dove_clear_tone_50ml" output_color="#FF661">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_clear_tone_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2991" name="desod_roll_dove_go_fresh_pepino_e_cha_verde_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_go_fresh_pepino_e_cha_verde_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2992" name="desod_roll_dove_hair_minimising_wild_rose_50ml" output_color="#339900">
+                    <face id="F" type="F" width="4.4" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_hair_minimising_wild_rose_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2993" name="desod_roll_dove_men_+_care_energy_dry_50ml" output_color="#6633CC">
+                    <face id="F" type="F" width="4.7" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_men_+_care_energy_dry_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2994" name="desod_roll_dove_men_+_care_extra_fresh_50ml" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_men_+_care_extra_fresh_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2995" name="desod_roll_dove_men_+_care_sem_perfume_50ml" output_color="#FF6600">
+                    <face id="F" type="F" width="4.4" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_men_+_care_sem_perfume_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2996" name="desod_roll_dove_men_+_care_silver_control_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_men_+_care_silver_control_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3044" name="desod_roll_dove_natural_care_50ml" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_natural_care_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2997" name="desod_roll_dove_pure_50ml" output_color="#33991">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_pure_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2998" name="desod_roll_dove_sem_perfume_50ml" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_dove_sem_perfume_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2956" name="desod_roll_gillette_3x_cool_wave_52g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.8000000000000007" height="11.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_gillette_3x_cool_wave_52g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2957" name="desod_roll_gillette_3x_sport_arctic_ice_50ml" output_color="#33991">
+                    <face id="F" type="F" width="4.8000000000000007" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_gillette_3x_sport_arctic_ice_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2926" name="desod_roll_nivea_clear_skin_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4" height="10.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_nivea_clear_skin_50ml_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4" height="10.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_nivea_clear_skin_50ml_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="2927" name="desod_roll_nivea_dry_comfort_50ml" output_color="#33991">
+                    <face id="F" type="F" width="4" height="10.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_nivea_dry_comfort_50ml_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4" height="10.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_nivea_dry_comfort_50ml_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="2928" name="desod_roll_nivea_for_men_sensetive_protect_50ml" output_color="#6633CC">
+                    <face id="F" type="F" width="4" height="10.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_nivea_for_men_sensetive_protect_50ml_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4" height="10.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_nivea_for_men_sensetive_protect_50ml_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="2929" name="desod_roll_nivea_sensitive_n_pure_50ml" output_color="#66FF1">
+                    <face id="F" type="F" width="4" height="10.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_nivea_sensitive_n_pure_50ml_F_F.jpg" x="0" y="0" />
+                    <face id="FN" type="FN" width="4" height="10.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_nivea_sensitive_n_pure_50ml_FN_FN.jpg" x="0" y="0" />
+                </template>
+                <template id="3039" name="desod_roll_rexona_ebony_48g" output_color="#66FF1">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_ebony_48g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3040" name="desod_roll_rexona_men_active_30ml" output_color="#FF661">
+                    <face id="F" type="F" width="3.5600000000000005" height="10.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_men_active_30ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3041" name="desod_roll_rexona_men_sensitive_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_men_sensitive_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3042" name="desod_roll_rexona_men_super_hero_50ml" output_color="#339900">
+                    <face id="F" type="F" width="4.7" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_men_super_hero_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3043" name="desod_roll_rexona_men_xtra_cool_50ml" output_color="#6633CC">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_men_xtra_cool_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3045" name="desod_roll_rexona_teens_love_50ml" output_color="#FF6600">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_teens_love_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3046" name="desod_roll_rexona_women_active_emotion_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_women_active_emotion_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3047" name="desod_roll_rexona_women_bamboo_30g" output_color="#33991">
+                    <face id="F" type="F" width="3.6" height="10.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_women_bamboo_30g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3048" name="desod_roll_rexona_women_bamboo_50ml_mpack_2_un_20p_de_desconto" output_color="#6633CC">
+                    <face id="F" type="F" width="9.2000000000000011" height="11.700000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_women_bamboo_50ml_mpack_2_un_20p_de_desconto_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3049" name="desod_roll_rexona_women_cotton_50ml" output_color="#66FF1">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_women_cotton_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3050" name="desod_roll_rexona_women_crystal_50ml" output_color="#FF661">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_women_crystal_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3051" name="desod_roll_rexona_women_extra_fresh_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_women_extra_fresh_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3052" name="desod_roll_rexona_women_natural_protection_50ml" output_color="#339900">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_women_natural_protection_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3053" name="desod_roll_rexona_women_powder_30ml" output_color="#6633CC">
+                    <face id="F" type="F" width="3.6" height="10.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_women_powder_30ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3054" name="desod_roll_rexona_women_powder_50ml_mpack_2_un_20p_de_desconto" output_color="#66FF00">
+                    <face id="F" type="F" width="9.2000000000000011" height="11.700000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_roll_rexona_women_powder_50ml_mpack_2_un_20p_de_desconto_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3058" name="desod_sp_rexona_men_active_90ml" output_color="#6633CC">
+                    <face id="F" type="F" width="4.9" height="13.200000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_sp_rexona_men_active_90ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2958" name="desod_st_gillette_clear_gel_3x_power_rush_82g" output_color="#6633CC">
+                    <face id="F" type="F" width="6.7" height="12" unit_measure="cm" fwidth="0" fheight="0" filename="../../desod_st_gillette_clear_gel_3x_power_rush_82g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2982" name="dove_ap_original_aerosol_premium_100gr" output_color="#339900">
+                    <face id="F" type="F" width="4.5" height="18.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_ap_original_aerosol_premium_100gr_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2983" name="dove_deo_aer_ap_beauty_finish_12x100g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="18.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_deo_aer_ap_beauty_finish_12x100g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2984" name="dove_deo_aer_ap_energy_dry_12x89g" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="17" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_deo_aer_ap_energy_dry_12x89g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2985" name="dove_dermo_aclarant_aerosol_premium_100g" output_color="#FF6600">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_dermo_aclarant_aerosol_premium_100g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2986" name="dove_invisible_dry_aerosol_premium_100g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="18.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_invisible_dry_aerosol_premium_100g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2999" name="dove_invisible_dry_rollon_premium_50ml" output_color="#66FF1">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_invisible_dry_rollon_premium_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2987" name="dove_men_clean_comfort_anti_aero_150ml-89g" output_color="#33991">
+                    <face id="F" type="F" width="4.5" height="17.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_men_clean_comfort_anti_aero_150ml-89g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3000" name="dove_men_clean_confort_anti_rollon_50ml-53" output_color="#FF661">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_men_clean_confort_anti_rollon_50ml-53_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="2988" name="dove_men_deo_aer_ap_s-perfume_12x89g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="17.2" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_men_deo_aer_ap_s-perfume_12x89g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3001" name="dove_original_rollon_premium_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../dove_original_rollon_premium_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="4742" name="old_spice_after_party_spray_para_o_corpo_107g" output_color="#339900">
+                    <face id="F" type="F" width="5" height="17" unit_measure="cm" fwidth="0" fheight="0" filename="../../old_spice_after_party_spray_para_o_corpo_107g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="4743" name="old_spice_pure_sport_spray_para_o_corpo_107g" output_color="#6633CC">
+                    <face id="F" type="F" width="5" height="17" unit_measure="cm" fwidth="0" fheight="0" filename="../../old_spice_pure_sport_spray_para_o_corpo_107g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="4744" name="old_spice_vip_rollon_antitranspirante_50ml" output_color="#66FF00">
+                    <face id="F" type="F" width="5" height="11.5" unit_measure="cm" fwidth="0" fheight="0" filename="../../old_spice_vip_rollon_antitranspirante_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3021" name="rexona_24h_women_s-perf_aero_12x105g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_24h_women_s-perf_aero_12x105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3022" name="rexona_active_aerosol_intermediario_105g" output_color="#339900">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_active_aerosol_intermediario_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3055" name="rexona_active_rollon_intermediario_50ml" output_color="#FF6600">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.4" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_active_rollon_intermediario_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3023" name="rexona_bamboo_feminino_aerosol_intermediario_105g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_bamboo_feminino_aerosol_intermediario_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3024" name="rexona_bamboo_rollon_50ml" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_bamboo_rollon_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3025" name="rexona_cotton_aerosol_intermediario_105g" output_color="#FF6600">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_cotton_aerosol_intermediario_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3026" name="rexona_deo_aer_ap_xtra_cool_12x105g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_deo_aer_ap_xtra_cool_12x105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3027" name="rexona_men_active_aero_90g(nova_embalagem)" output_color="#33991">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_active_aero_90g(nova_embalagem)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3028" name="rexona_men_aerosol_premium_invisible_105g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.6" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_aerosol_premium_invisible_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3437" name="rexona_men_aquashield_aero_90g_(nova_embalagem)" output_color="#33991">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_aquashield_aero_90g_(nova_embalagem)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3036" name="rexona_men_clinical_creme_48g" output_color="#3399FF">
+                    <face id="F" type="F" width="6.7" height="12.600000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_clinical_creme_48g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3438" name="rexona_men_extreme_90g_(nova_embalagem)" output_color="#6633CC">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_extreme_90g_(nova_embalagem)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3439" name="rexona_men_invisible_aero_90g_(nova_embalagem)" output_color="#66FF1">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_invisible_aero_90g_(nova_embalagem)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3440" name="rexona_men_quantum_aero_90g_(nova_embalagem)" output_color="#FF661">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_quantum_aero_90g_(nova_embalagem)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3441" name="rexona_men_sport_fan_aero_90g_(nova_embalagem)" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_sport_fan_aero_90g_(nova_embalagem)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3442" name="rexona_men_superhero_aero_90g_(nova_embalagem)" output_color="#339900">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_superhero_aero_90g_(nova_embalagem)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3443" name="rexona_men_tuning_lotus_aero_90g_(nova_embalagem)" output_color="#6633CC">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_tuning_lotus_aero_90g_(nova_embalagem)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3029" name="rexona_men_v8_aero_90g(nova_embalagem)" output_color="#66FF1">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_v8_aero_90g(nova_embalagem)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3030" name="rexona_men_v8_anti_aero_175ml-105g" output_color="#FF661">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_men_v8_anti_aero_175ml-105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3031" name="rexona_powder_aerosol_intermediario_105g" output_color="#3399FF">
+                    <face id="F" type="F" width="4.6000000000000005" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_powder_aerosol_intermediario_105g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3032" name="rexona_powder_rollon_intermediario_50ml" output_color="#339900">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_powder_rollon_intermediario_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3056" name="rexona_sem_perfume_rollon_intermediario_50ml" output_color="#3399FF">
+                    <face id="F" type="F" width="4.5" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_sem_perfume_rollon_intermediario_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3033" name="rexona_teens_aerosol_intermediario_tropical_energy_60g" output_color="#6633CC">
+                    <face id="F" type="F" width="4.5" height="13.8" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_teens_aerosol_intermediario_tropical_energy_60g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3057" name="rexona_v8_rollon_intermediario_50ml" output_color="#33991">
+                    <face id="F" type="F" width="4.6000000000000005" height="11.3" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_v8_rollon_intermediario_50ml_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3037" name="rexona_women_clinical_creme_48g" output_color="#33991">
+                    <face id="F" type="F" width="6.7" height="12.600000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_women_clinical_creme_48g_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3034" name="rexona_women_crystal_pink_aerosol(novo)" output_color="#66FF00">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_women_crystal_pink_aerosol(novo)_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3035" name="rexona_women_skin_care_nutritive_aerosol" output_color="#FF6600">
+                    <face id="F" type="F" width="4.5" height="18.7" unit_measure="cm" fwidth="0" fheight="0" filename="../../rexona_women_skin_care_nutritive_aerosol_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3864" name="unknown_competitors" output_color="#000000">
+                    <face id="F" type="F" width="4.9" height="13.200000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../unknown_competitors_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3681" name="unknown_desodorante_axe" output_color="#000000">
+                    <face id="F" type="F" width="5" height="5" unit_measure="cm" fwidth="0" fheight="0" filename="../../unknown_desodorante_axe_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3862" name="unknown_desodorante_dove" output_color="#000000">
+                    <face id="F" type="F" width="5" height="5" unit_measure="cm" fwidth="0" fheight="0" filename="../../unknown_desodorante_dove_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3863" name="unknown_desodorante_rexona" output_color="#000000">
+                    <face id="F" type="F" width="5" height="5" unit_measure="cm" fwidth="0" fheight="0" filename="../../unknown_desodorante_rexona_F_F.jpg" x="0" y="0" />
+                </template>
+                <template id="3060" name="unknown_merge_sku" output_color="#6633CC">
+                    <face id="F" type="F" width="4.9" height="13.200000000000001" unit_measure="cm" fwidth="0" fheight="0" filename="../../unknown_merge_sku_F_F.jpg" x="0" y="0" />
+                </template>
+            </templates>
+            <recognition_parameters>
+                <recognition_parameter template_id="default" face_id="default" filename="./params/default_deodorants.xml" />
+                <recognition_parameter template_id="2959" face_id="F" filename="./params/axe_aero_ap_apollo_90g_F_F.xml" />
+                <recognition_parameter template_id="2960" face_id="F" filename="./params/axe_aero_bs_apollo_113g_F_F.xml" />
+                <recognition_parameter template_id="2961" face_id="F" filename="./params/axe_aerosol_b_spray_excite_113g-160ml_F_F.xml" />
+                <recognition_parameter template_id="2962" face_id="F" filename="./params/axe_dark_temptation_nl_aerosol_intermediario_160ml-113g_F_F.xml" />
+                <recognition_parameter template_id="2963" face_id="F" filename="./params/axe_deo_aer_ap_dark_temp_sec12x90g-152ml_F_F.xml" />
+                <recognition_parameter template_id="2964" face_id="F" filename="./params/axe_deo_aer_ap_excite_12x90g_F_F.xml" />
+                <recognition_parameter template_id="2965" face_id="F" filename="./params/desod_aero_axe_excite_90ml_F_F.xml" />
+                <recognition_parameter template_id="2966" face_id="F" filename="./params/desod_aero_axe_final_edition_2012_113g_F_F.xml" />
+                <recognition_parameter template_id="2967" face_id="F" filename="./params/desod_aero_axe_final_edition_2012_58g_F_F.xml" />
+                <recognition_parameter template_id="2968" face_id="F" filename="./params/desod_aero_axe_seco_ultra_focos_90g_F_F.xml" />
+                <recognition_parameter template_id="2969" face_id="F" filename="./params/desod_aero_axe_twist_113g_F_F.xml" />
+                <recognition_parameter template_id="2930" face_id="F" filename="./params/desod_aero_bi-o_clarify_renov_90g_F_F.xml" />
+                <recognition_parameter template_id="2931" face_id="F" filename="./params/desod_aero_bi-o_clarity_120g_gt_50ml_F_F.xml" />
+                <recognition_parameter template_id="2932" face_id="F" filename="./params/desod_aero_bi-o_clarity_90g_F_F.xml" />
+                <recognition_parameter template_id="2933" face_id="F" filename="./params/desod_aero_bi-o_for_men_extreme_80_90g_F_F.xml" />
+                <recognition_parameter template_id="2934" face_id="F" filename="./params/desod_aero_bi-o_fresh_90g_F_F.xml" />
+                <recognition_parameter template_id="2935" face_id="F" filename="./params/desod_aero_bi-o_invisible_90g_F_F.xml" />
+                <recognition_parameter template_id="2936" face_id="F" filename="./params/desod_aero_bi-o_men_protection_5_non_stop_90g_F_F.xml" />
+                <recognition_parameter template_id="2937" face_id="F" filename="./params/desod_aero_bi-o_mineral_dry_care_120g_gt_50ml_F_F.xml" />
+                <recognition_parameter template_id="2938" face_id="F" filename="./params/desod_aero_bi-o_mineral_dry_power_120g_gt_50ml_F_F.xml" />
+                <recognition_parameter template_id="2939" face_id="F" filename="./params/desod_aero_bi-o_mineral_men_dry_power_90g_mpack_2_un_40p_de_desconto_F_F.xml" />
+                <recognition_parameter template_id="2940" face_id="F" filename="./params/desod_aero_bi-o_mineral_men_extreme_ice_90g_F_F.xml" />
+                <recognition_parameter template_id="2941" face_id="F" filename="./params/desod_aero_bi-o_protection_5_bi-o_eficacia_90g_F_F.xml" />
+                <recognition_parameter template_id="2942" face_id="F" filename="./params/desod_aero_bi-o_relax_90g_F_F.xml" />
+                <recognition_parameter template_id="2943" face_id="F" filename="./params/desod_aero_bi-o_sensitive_90g_F_F.xml" />
+                <recognition_parameter template_id="2944" face_id="F" filename="./params/desod_aero_bi-o_soft_90g_F_F.xml" />
+                <recognition_parameter template_id="2973" face_id="F" filename="./params/desod_aero_dove_advanced_care_hair_minimising_100g_F_F.xml" />
+                <recognition_parameter template_id="2974" face_id="F" filename="./params/desod_aero_dove_clear_tone_100g_F_F.xml" />
+                <recognition_parameter template_id="2975" face_id="F" filename="./params/desod_aero_dove_go_fresh_pepino_e_cha_verde_100g_F_F.xml" />
+                <recognition_parameter template_id="2976" face_id="F" filename="./params/desod_aero_dove_men_+_care_clean_comfort_89g_mpack_2_un_50p_desconto_na_segunda_unidade_F_F.xml" />
+                <recognition_parameter template_id="2977" face_id="F" filename="./params/desod_aero_dove_men_+_care_extra_fresh_89g_F_F.xml" />
+                <recognition_parameter template_id="2977" face_id="FN" filename="./params/desod_aero_dove_men_+_care_extra_fresh_89g_FN_FN.xml" />
+                <recognition_parameter template_id="2978" face_id="F" filename="./params/desod_aero_dove_men_+_care_silver_control_89g_F_F.xml" />
+                <recognition_parameter template_id="2979" face_id="F" filename="./params/desod_aero_dove_natural_care_100g_F_F.xml" />
+                <recognition_parameter template_id="2980" face_id="F" filename="./params/desod_aero_dove_original_100g_mpack_2_un_50p_de_desconto_na_segunda_unidade_F_F.xml" />
+                <recognition_parameter template_id="2981" face_id="F" filename="./params/desod_aero_dove_pure_100g_F_F.xml" />
+                <recognition_parameter template_id="2953" face_id="F" filename="./params/desod_aero_gillette_3x_sport_106g_F_F.xml" />
+                <recognition_parameter template_id="2954" face_id="F" filename="./params/desod_aero_gillette_x-dry_sport_105g_F_F.xml" />
+                <recognition_parameter template_id="2955" face_id="F" filename="./params/desod_aero_gillette_x-dry_ultimate_fresh_105g_F_F.xml" />
+                <recognition_parameter template_id="2916" face_id="F" filename="./params/desod_aero_nivea_clear_skin_92g_F_F.xml" />
+                <recognition_parameter template_id="2917" face_id="F" filename="./params/desod_aero_nivea_double_effect_100g_F_F.xml" />
+                <recognition_parameter template_id="2917" face_id="FN" filename="./params/desod_aero_nivea_double_effect_100g_FN_FN.xml" />
+                <recognition_parameter template_id="2918" face_id="F" filename="./params/desod_aero_nivea_dry_comfort_121g_gt_50ml_F_F.xml" />
+                <recognition_parameter template_id="2919" face_id="F" filename="./params/desod_aero_nivea_dry_comfort_91g_F_F.xml" />
+                <recognition_parameter template_id="2919" face_id="FN" filename="./params/desod_aero_nivea_dry_comfort_91g_FN_FN.xml" />
+                <recognition_parameter template_id="2920" face_id="F" filename="./params/desod_aero_nivea_dry_comfort_91g_mpack_2_un_20p_de_desconto_F_F.xml" />
+                <recognition_parameter template_id="2921" face_id="F" filename="./params/desod_aero_nivea_for_men_dry_impact_92g_F_F.xml" />
+                <recognition_parameter template_id="2921" face_id="FN" filename="./params/desod_aero_nivea_for_men_dry_impact_92g_FN_FN.xml" />
+                <recognition_parameter template_id="2922" face_id="F" filename="./params/desod_aero_nivea_for_men_sport_92g_F_F.xml" />
+                <recognition_parameter template_id="2922" face_id="FN" filename="./params/desod_aero_nivea_for_men_sport_92g_FN_FN.xml" />
+                <recognition_parameter template_id="2923" face_id="F" filename="./params/desod_aero_nivea_pearl_n_beauty_90g_mpack_2_un_gt_1_sabonete_liquido_250ml_F_F.xml" />
+                <recognition_parameter template_id="2924" face_id="F" filename="./params/desod_aero_nivea_pearl_n_beauty_92g_F_F.xml" />
+                <recognition_parameter template_id="2924" face_id="FN" filename="./params/desod_aero_nivea_pearl_n_beauty_92g_FN_FN.xml" />
+                <recognition_parameter template_id="2925" face_id="F" filename="./params/desod_aero_nivea_sensitive_n_pure_93g_F_F.xml" />
+                <recognition_parameter template_id="2925" face_id="FN" filename="./params/desod_aero_nivea_sensitive_n_pure_93g_FN_FN.xml" />
+                <recognition_parameter template_id="3002" face_id="F" filename="./params/desod_aero_rexona_ebony_105g_F_F.xml" />
+                <recognition_parameter template_id="3003" face_id="F" filename="./params/desod_aero_rexona_men_adventure_105g_F_F.xml" />
+                <recognition_parameter template_id="3004" face_id="F" filename="./params/desod_aero_rexona_men_aquashield_105g_F_F.xml" />
+                <recognition_parameter template_id="3005" face_id="F" filename="./params/desod_aero_rexona_men_extreme_105g_F_F.xml" />
+                <recognition_parameter template_id="3006" face_id="F" filename="./params/desod_aero_rexona_men_quantum_105g_F_F.xml" />
+                <recognition_parameter template_id="3007" face_id="F" filename="./params/desod_aero_rexona_men_sensitive_105g_F_F.xml" />
+                <recognition_parameter template_id="3008" face_id="F" filename="./params/desod_aero_rexona_men_sportfan_105g_F_F.xml" />
+                <recognition_parameter template_id="3009" face_id="F" filename="./params/desod_aero_rexona_men_super_hero_105g_F_F.xml" />
+                <recognition_parameter template_id="3010" face_id="F" filename="./params/desod_aero_rexona_men_v12_tuning_105g_F_F.xml" />
+                <recognition_parameter template_id="3011" face_id="F" filename="./params/desod_aero_rexona_powder_105g_gt_1_smostra_do_desodorante_para_pes_F_F.xml" />
+                <recognition_parameter template_id="3012" face_id="F" filename="./params/desod_aero_rexona_sexy_105g_F_F.xml" />
+                <recognition_parameter template_id="3013" face_id="F" filename="./params/desod_aero_rexona_women_active_emotion_105g_F_F.xml" />
+                <recognition_parameter template_id="3014" face_id="F" filename="./params/desod_aero_rexona_women_bamboo_105g_mpack_2_un_20p_de_desconto_F_F.xml" />
+                <recognition_parameter template_id="3015" face_id="F" filename="./params/desod_aero_rexona_women_cotton_64g_F_F.xml" />
+                <recognition_parameter template_id="3016" face_id="F" filename="./params/desod_aero_rexona_women_extra_fresh_105g_F_F.xml" />
+                <recognition_parameter template_id="3017" face_id="F" filename="./params/desod_aero_rexona_women_happy_105g_F_F.xml" />
+                <recognition_parameter template_id="3018" face_id="F" filename="./params/desod_aero_rexona_women_natural_protection_105g_F_F.xml" />
+                <recognition_parameter template_id="3019" face_id="F" filename="./params/desod_aero_rexona_women_powder_105g_mpack_2_un_20p_de_desconto_F_F.xml" />
+                <recognition_parameter template_id="3020" face_id="F" filename="./params/desod_aero_rexona_women_powder_64g_F_F.xml" />
+                <recognition_parameter template_id="2970" face_id="F" filename="./params/desod_roll_axe_seco_apollo_50ml_F_F.xml" />
+                <recognition_parameter template_id="2971" face_id="F" filename="./params/desod_roll_axe_seco_dark_temptation_50ml_F_F.xml" />
+                <recognition_parameter template_id="2972" face_id="F" filename="./params/desod_roll_axe_seco_excite_50ml_F_F.xml" />
+                <recognition_parameter template_id="2945" face_id="F" filename="./params/desod_roll_bi-o_clarify_renov_50ml_F_F.xml" />
+                <recognition_parameter template_id="2946" face_id="F" filename="./params/desod_roll_bi-o_clarity_50ml_mpack_2_un_40p_de_desconto_F_F.xml" />
+                <recognition_parameter template_id="2947" face_id="F" filename="./params/desod_roll_bi-o_invisible_50ml_F_F.xml" />
+                <recognition_parameter template_id="2948" face_id="F" filename="./params/desod_roll_bi-o_invisible_50ml_mpack_2_un_40p_de_desconto_F_F.xml" />
+                <recognition_parameter template_id="2949" face_id="F" filename="./params/desod_roll_bi-o_men_protection_5_non_stop_50ml_F_F.xml" />
+                <recognition_parameter template_id="2950" face_id="F" filename="./params/desod_roll_bi-o_mineral_men_dry_power_50ml_mpack_2_un_40p_de_desconto_F_F.xml" />
+                <recognition_parameter template_id="2951" face_id="F" filename="./params/desod_roll_bi-o_mineral_men_extreme_ice_50ml_F_F.xml" />
+                <recognition_parameter template_id="2952" face_id="F" filename="./params/desod_roll_bi-o_protection_5_bi-o_eficacia_50ml_F_F.xml" />
+                <recognition_parameter template_id="2989" face_id="F" filename="./params/desod_roll_dove_advanced_care_dermo_aclarant_50ml_F_F.xml" />
+                <recognition_parameter template_id="3038" face_id="F" filename="./params/desod_roll_dove_beauty_finish_50ml_F_F.xml" />
+                <recognition_parameter template_id="2990" face_id="F" filename="./params/desod_roll_dove_clear_tone_50ml_F_F.xml" />
+                <recognition_parameter template_id="2991" face_id="F" filename="./params/desod_roll_dove_go_fresh_pepino_e_cha_verde_50ml_F_F.xml" />
+                <recognition_parameter template_id="2992" face_id="F" filename="./params/desod_roll_dove_hair_minimising_wild_rose_50ml_F_F.xml" />
+                <recognition_parameter template_id="2993" face_id="F" filename="./params/desod_roll_dove_men_+_care_energy_dry_50ml_F_F.xml" />
+                <recognition_parameter template_id="2994" face_id="F" filename="./params/desod_roll_dove_men_+_care_extra_fresh_50ml_F_F.xml" />
+                <recognition_parameter template_id="2995" face_id="F" filename="./params/desod_roll_dove_men_+_care_sem_perfume_50ml_F_F.xml" />
+                <recognition_parameter template_id="2996" face_id="F" filename="./params/desod_roll_dove_men_+_care_silver_control_50ml_F_F.xml" />
+                <recognition_parameter template_id="3044" face_id="F" filename="./params/desod_roll_dove_natural_care_50ml_F_F.xml" />
+                <recognition_parameter template_id="2997" face_id="F" filename="./params/desod_roll_dove_pure_50ml_F_F.xml" />
+                <recognition_parameter template_id="2998" face_id="F" filename="./params/desod_roll_dove_sem_perfume_50ml_F_F.xml" />
+                <recognition_parameter template_id="2956" face_id="F" filename="./params/desod_roll_gillette_3x_cool_wave_52g_F_F.xml" />
+                <recognition_parameter template_id="2957" face_id="F" filename="./params/desod_roll_gillette_3x_sport_arctic_ice_50ml_F_F.xml" />
+                <recognition_parameter template_id="2926" face_id="F" filename="./params/desod_roll_nivea_clear_skin_50ml_F_F.xml" />
+                <recognition_parameter template_id="2926" face_id="FN" filename="./params/desod_roll_nivea_clear_skin_50ml_FN_FN.xml" />
+                <recognition_parameter template_id="2927" face_id="F" filename="./params/desod_roll_nivea_dry_comfort_50ml_F_F.xml" />
+                <recognition_parameter template_id="2927" face_id="FN" filename="./params/desod_roll_nivea_dry_comfort_50ml_FN_FN.xml" />
+                <recognition_parameter template_id="2928" face_id="F" filename="./params/desod_roll_nivea_for_men_sensetive_protect_50ml_F_F.xml" />
+                <recognition_parameter template_id="2928" face_id="FN" filename="./params/desod_roll_nivea_for_men_sensetive_protect_50ml_FN_FN.xml" />
+                <recognition_parameter template_id="2929" face_id="F" filename="./params/desod_roll_nivea_sensitive_n_pure_50ml_F_F.xml" />
+                <recognition_parameter template_id="2929" face_id="FN" filename="./params/desod_roll_nivea_sensitive_n_pure_50ml_FN_FN.xml" />
+                <recognition_parameter template_id="3039" face_id="F" filename="./params/desod_roll_rexona_ebony_48g_F_F.xml" />
+                <recognition_parameter template_id="3040" face_id="F" filename="./params/desod_roll_rexona_men_active_30ml_F_F.xml" />
+                <recognition_parameter template_id="3041" face_id="F" filename="./params/desod_roll_rexona_men_sensitive_50ml_F_F.xml" />
+                <recognition_parameter template_id="3042" face_id="F" filename="./params/desod_roll_rexona_men_super_hero_50ml_F_F.xml" />
+                <recognition_parameter template_id="3043" face_id="F" filename="./params/desod_roll_rexona_men_xtra_cool_50ml_F_F.xml" />
+                <recognition_parameter template_id="3045" face_id="F" filename="./params/desod_roll_rexona_teens_love_50ml_F_F.xml" />
+                <recognition_parameter template_id="3046" face_id="F" filename="./params/desod_roll_rexona_women_active_emotion_50ml_F_F.xml" />
+                <recognition_parameter template_id="3047" face_id="F" filename="./params/desod_roll_rexona_women_bamboo_30g_F_F.xml" />
+                <recognition_parameter template_id="3048" face_id="F" filename="./params/desod_roll_rexona_women_bamboo_50ml_mpack_2_un_20p_de_desconto_F_F.xml" />
+                <recognition_parameter template_id="3049" face_id="F" filename="./params/desod_roll_rexona_women_cotton_50ml_F_F.xml" />
+                <recognition_parameter template_id="3050" face_id="F" filename="./params/desod_roll_rexona_women_crystal_50ml_F_F.xml" />
+                <recognition_parameter template_id="3051" face_id="F" filename="./params/desod_roll_rexona_women_extra_fresh_50ml_F_F.xml" />
+                <recognition_parameter template_id="3052" face_id="F" filename="./params/desod_roll_rexona_women_natural_protection_50ml_F_F.xml" />
+                <recognition_parameter template_id="3053" face_id="F" filename="./params/desod_roll_rexona_women_powder_30ml_F_F.xml" />
+                <recognition_parameter template_id="3054" face_id="F" filename="./params/desod_roll_rexona_women_powder_50ml_mpack_2_un_20p_de_desconto_F_F.xml" />
+                <recognition_parameter template_id="3058" face_id="F" filename="./params/desod_sp_rexona_men_active_90ml_F_F.xml" />
+                <recognition_parameter template_id="2958" face_id="F" filename="./params/desod_st_gillette_clear_gel_3x_power_rush_82g_F_F.xml" />
+                <recognition_parameter template_id="2982" face_id="F" filename="./params/dove_ap_original_aerosol_premium_100gr_F_F.xml" />
+                <recognition_parameter template_id="2983" face_id="F" filename="./params/dove_deo_aer_ap_beauty_finish_12x100g_F_F.xml" />
+                <recognition_parameter template_id="2984" face_id="F" filename="./params/dove_deo_aer_ap_energy_dry_12x89g_F_F.xml" />
+                <recognition_parameter template_id="2985" face_id="F" filename="./params/dove_dermo_aclarant_aerosol_premium_100g_F_F.xml" />
+                <recognition_parameter template_id="2986" face_id="F" filename="./params/dove_invisible_dry_aerosol_premium_100g_F_F.xml" />
+                <recognition_parameter template_id="2999" face_id="F" filename="./params/dove_invisible_dry_rollon_premium_50ml_F_F.xml" />
+                <recognition_parameter template_id="2987" face_id="F" filename="./params/dove_men_clean_comfort_anti_aero_150ml-89g_F_F.xml" />
+                <recognition_parameter template_id="3000" face_id="F" filename="./params/dove_men_clean_confort_anti_rollon_50ml-53_F_F.xml" />
+                <recognition_parameter template_id="2988" face_id="F" filename="./params/dove_men_deo_aer_ap_s-perfume_12x89g_F_F.xml" />
+                <recognition_parameter template_id="3001" face_id="F" filename="./params/dove_original_rollon_premium_50ml_F_F.xml" />
+                <recognition_parameter template_id="4742" face_id="F" filename="./params/old_spice_after_party_spray_para_o_corpo_107g_F_F.xml" />
+                <recognition_parameter template_id="4743" face_id="F" filename="./params/old_spice_pure_sport_spray_para_o_corpo_107g_F_F.xml" />
+                <recognition_parameter template_id="4744" face_id="F" filename="./params/old_spice_vip_rollon_antitranspirante_50ml_F_F.xml" />
+                <recognition_parameter template_id="3021" face_id="F" filename="./params/rexona_24h_women_s-perf_aero_12x105g_F_F.xml" />
+                <recognition_parameter template_id="3022" face_id="F" filename="./params/rexona_active_aerosol_intermediario_105g_F_F.xml" />
+                <recognition_parameter template_id="3055" face_id="F" filename="./params/rexona_active_rollon_intermediario_50ml_F_F.xml" />
+                <recognition_parameter template_id="3023" face_id="F" filename="./params/rexona_bamboo_feminino_aerosol_intermediario_105g_F_F.xml" />
+                <recognition_parameter template_id="3024" face_id="F" filename="./params/rexona_bamboo_rollon_50ml_F_F.xml" />
+                <recognition_parameter template_id="3025" face_id="F" filename="./params/rexona_cotton_aerosol_intermediario_105g_F_F.xml" />
+                <recognition_parameter template_id="3026" face_id="F" filename="./params/rexona_deo_aer_ap_xtra_cool_12x105g_F_F.xml" />
+                <recognition_parameter template_id="3027" face_id="F" filename="./params/rexona_men_active_aero_90g(nova_embalagem)_F_F.xml" />
+                <recognition_parameter template_id="3028" face_id="F" filename="./params/rexona_men_aerosol_premium_invisible_105g_F_F.xml" />
+                <recognition_parameter template_id="3437" face_id="F" filename="./params/rexona_men_aquashield_aero_90g_(nova_embalagem)_F_F.xml" />
+                <recognition_parameter template_id="3036" face_id="F" filename="./params/rexona_men_clinical_creme_48g_F_F.xml" />
+                <recognition_parameter template_id="3438" face_id="F" filename="./params/rexona_men_extreme_90g_(nova_embalagem)_F_F.xml" />
+                <recognition_parameter template_id="3439" face_id="F" filename="./params/rexona_men_invisible_aero_90g_(nova_embalagem)_F_F.xml" />
+                <recognition_parameter template_id="3440" face_id="F" filename="./params/rexona_men_quantum_aero_90g_(nova_embalagem)_F_F.xml" />
+                <recognition_parameter template_id="3441" face_id="F" filename="./params/rexona_men_sport_fan_aero_90g_(nova_embalagem)_F_F.xml" />
+                <recognition_parameter template_id="3442" face_id="F" filename="./params/rexona_men_superhero_aero_90g_(nova_embalagem)_F_F.xml" />
+                <recognition_parameter template_id="3443" face_id="F" filename="./params/rexona_men_tuning_lotus_aero_90g_(nova_embalagem)_F_F.xml" />
+                <recognition_parameter template_id="3029" face_id="F" filename="./params/rexona_men_v8_aero_90g(nova_embalagem)_F_F.xml" />
+                <recognition_parameter template_id="3030" face_id="F" filename="./params/rexona_men_v8_anti_aero_175ml-105g_F_F.xml" />
+                <recognition_parameter template_id="3031" face_id="F" filename="./params/rexona_powder_aerosol_intermediario_105g_F_F.xml" />
+                <recognition_parameter template_id="3032" face_id="F" filename="./params/rexona_powder_rollon_intermediario_50ml_F_F.xml" />
+                <recognition_parameter template_id="3056" face_id="F" filename="./params/rexona_sem_perfume_rollon_intermediario_50ml_F_F.xml" />
+                <recognition_parameter template_id="3033" face_id="F" filename="./params/rexona_teens_aerosol_intermediario_tropical_energy_60g_F_F.xml" />
+                <recognition_parameter template_id="3057" face_id="F" filename="./params/rexona_v8_rollon_intermediario_50ml_F_F.xml" />
+                <recognition_parameter template_id="3037" face_id="F" filename="./params/rexona_women_clinical_creme_48g_F_F.xml" />
+                <recognition_parameter template_id="3034" face_id="F" filename="./params/rexona_women_crystal_pink_aerosol(novo)_F_F.xml" />
+                <recognition_parameter template_id="3035" face_id="F" filename="./params/rexona_women_skin_care_nutritive_aerosol_F_F.xml" />
+                <recognition_parameter template_id="3864" face_id="F" filename="./params/unknown_competitors_F_F.xml" />
+                <recognition_parameter template_id="3681" face_id="F" filename="./params/unknown_desodorante_axe_F_F.xml" />
+                <recognition_parameter template_id="3862" face_id="F" filename="./params/unknown_desodorante_dove_F_F.xml" />
+                <recognition_parameter template_id="3863" face_id="F" filename="./params/unknown_desodorante_rexona_F_F.xml" />
+                <recognition_parameter template_id="3060" face_id="F" filename="./params/unknown_merge_sku_F_F.xml" />
+            </recognition_parameters>
+        </input>
+        <output>
+            <step> 
+                <id>MAIN</id>
+                <status_code>6</status_code>
+                <status_description>Missing Image Error</status_description>
+                <release version="922 (built:Nov 27 2014)" />
+                <results>
+                    <result>
+                        <processing time="18.000000" unit_measure="s">
+                            <steptime name="START" time="0.000000" />
+                            <steptime name="INPUT" time="3.403000" />
+                            <steptime name="OTHER" time="0.107000" />
+                            <steptime name="DISCO_DET" time="17.931999" />
+                            <steptime name="STD_RAWSCALING" time="0.146000" />
+                            <steptime name="MOD_SHELVES" time="0.040000" />
+                            <steptime name="STD_SHELVES" time="0.000000" />
+                            <steptime name="STD_LABELS" time="0.001000" />
+                            <steptime name="OUTPUT_EXCLUDED" time="0.013000" />
+                        </processing>
+                        <photos homography_reliability="1.000000">
+                            <photo id="54537" filename="..\0000000002\0000000002.png" width="137.266678" height="102.950005" x="0.000000" y="0.000000" unit_measure="cm" homography="1 0 0 0 1 0 0 0 1 0.0536198" />
+                        </photos>
+                        <holes />
+                        <products>
+                            <product id="0" template_id="2921" template_name="desod_aero_nivea_for_men_dry_impact_92g" face_id="FN" width="4.967651" height="19.208252" x="74.280754" y="31.416094" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.997800" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="1" template_id="2921" template_name="desod_aero_nivea_for_men_dry_impact_92g" face_id="FN" width="4.967651" height="19.208252" x="79.910614" y="31.366964" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.965481" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="2" template_id="2921" template_name="desod_aero_nivea_for_men_dry_impact_92g" face_id="FN" width="4.967651" height="19.208252" x="83.185905" y="65.119209" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.961338" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="3" template_id="2922" template_name="desod_aero_nivea_for_men_sport_92g" face_id="FN" width="4.967651" height="19.208252" x="100.440170" y="30.856621" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.960800" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="4" template_id="2921" template_name="desod_aero_nivea_for_men_dry_impact_92g" face_id="FN" width="4.967651" height="19.208252" x="77.887215" y="65.165451" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.951052" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="5" template_id="2921" template_name="desod_aero_nivea_for_men_dry_impact_92g" face_id="FN" width="5.404042" height="20.895628" x="75.018219" y="-4.227051" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.941627" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="6" template_id="2921" template_name="desod_aero_nivea_for_men_dry_impact_92g" face_id="FN" width="5.906875" height="22.839916" x="80.763458" y="-5.701853" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.848944" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="7" template_id="2921" template_name="desod_aero_nivea_for_men_dry_impact_92g" face_id="FN" width="5.404042" height="20.895628" x="71.650269" y="63.907635" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.846431" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="8" template_id="2984" template_name="dove_deo_aer_ap_energy_dry_12x89g" face_id="F" width="5.404042" height="20.415268" x="130.716492" y="62.551365" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="28.000000" sure_match="116.000000" reliability="0.686794" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="9" template_id="2987" template_name="dove_men_clean_comfort_anti_aero_150ml-89g" face_id="F" width="3.507863" height="13.407830" x="129.722092" y="0.299946" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="170.000000" sure_match="22.000000" reliability="0.601110" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="10" template_id="2984" template_name="dove_deo_aer_ap_energy_dry_12x89g" face_id="F" width="4.169930" height="15.753068" x="126.451553" y="65.784760" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="123.000000" sure_match="148.000000" reliability="0.505553" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="11" template_id="2922" template_name="desod_aero_nivea_for_men_sport_92g" face_id="FN" width="5.404042" height="20.895628" x="107.076424" y="-4.506818" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="69.000000" sure_match="37.000000" reliability="0.378713" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="12" template_id="2987" template_name="dove_men_clean_comfort_anti_aero_150ml-89g" face_id="F" width="4.549451" height="17.389011" x="131.456375" y="32.562832" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.353926" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="13" template_id="2987" template_name="dove_men_clean_comfort_anti_aero_150ml-89g" face_id="F" width="4.967651" height="18.987467" x="126.273727" y="30.907162" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="3.000000" reliability="0.319534" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="14" template_id="3442" template_name="rexona_men_superhero_aero_90g_(nova_embalagem)" face_id="F" width="5.404042" height="21.968605" x="16.170937" y="63.494850" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="3.000000" reliability="0.304462" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="15" template_id="3021" template_name="rexona_24h_women_s-perf_aero_12x105g" face_id="F" width="4.549451" height="18.494507" x="46.119122" y="24.115372" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="3.000000" reliability="0.292232" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="16" template_id="3442" template_name="rexona_men_superhero_aero_90g_(nova_embalagem)" face_id="F" width="3.219779" height="13.089102" x="36.222599" y="0.500749" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.269864" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="17" template_id="2963" template_name="axe_deo_aer_ap_dark_temp_sec12x90g-152ml" face_id="F" width="5.404042" height="14.580716" x="13.057406" y="36.947727" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="0.000000" sure_match="0.000000" reliability="0.175939" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="18" template_id="3002" template_name="desod_aero_rexona_ebony_105g" face_id="F" width="4.549451" height="18.905495" x="39.509342" y="66.408348" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="49.000000" sure_match="46.000000" reliability="0.148748" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="19" template_id="2922" template_name="desod_aero_nivea_for_men_sport_92g" face_id="FN" width="7.015725" height="27.127472" x="52.767326" y="25.916252" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="206.000000" reliability="0.147097" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="20" template_id="2995" template_name="desod_roll_dove_men_+_care_sem_perfume_50ml" face_id="F" width="3.219779" height="8.268978" x="45.139290" y="62.702263" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="128.000000" sure_match="171.000000" reliability="0.146612" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="21" template_id="2963" template_name="axe_deo_aer_ap_dark_temp_sec12x90g-152ml" face_id="F" width="5.906875" height="15.937417" x="6.688608" y="35.411015" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="192.000000" sure_match="214.000000" reliability="0.125224" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="22" template_id="3027" template_name="rexona_men_active_aero_90g(nova_embalagem)" face_id="F" width="4.549451" height="18.494507" x="62.544559" y="-6.039602" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="88.000000" sure_match="84.000000" reliability="0.122328" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="23" template_id="3050" template_name="desod_roll_rexona_women_crystal_50ml" face_id="F" width="3.219779" height="8.085223" x="24.970633" y="64.364944" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="143.000000" sure_match="2.000000" reliability="0.116938" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="24" template_id="3050" template_name="desod_roll_rexona_women_crystal_50ml" face_id="F" width="3.826745" height="9.609382" x="51.166027" y="63.564342" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="112.000000" sure_match="238.000000" reliability="0.111092" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="25" template_id="2982" template_name="dove_ap_original_aerosol_premium_100gr" face_id="F" width="3.219779" height="13.451522" x="68.411407" y="22.999575" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="10.000000" reliability="0.107973" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="26" template_id="3027" template_name="rexona_men_active_aero_90g(nova_embalagem)" face_id="F" width="4.549451" height="18.494507" x="96.526009" y="-6.336154" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="206.000000" reliability="0.103893" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="27" template_id="2987" template_name="dove_men_clean_comfort_anti_aero_150ml-89g" face_id="F" width="3.219779" height="12.306711" x="122.191132" y="34.582924" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="146.000000" reliability="0.103294" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="28" template_id="3443" template_name="rexona_men_tuning_lotus_aero_90g_(nova_embalagem)" face_id="F" width="3.219779" height="13.089102" x="117.345451" y="20.607813" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="86.000000" reliability="0.095045" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="29" template_id="3027" template_name="rexona_men_active_aero_90g(nova_embalagem)" face_id="F" width="4.967651" height="20.194584" x="69.647575" y="-6.129322" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="26.000000" reliability="0.093213" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="30" template_id="2970" template_name="desod_roll_axe_seco_apollo_50ml" face_id="F" width="4.169930" height="10.243524" x="108.642044" y="63.133682" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="222.000000" reliability="0.091608" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="31" template_id="3051" template_name="desod_roll_rexona_women_extra_fresh_50ml" face_id="F" width="3.219779" height="8.085223" x="29.727699" y="68.186005" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="162.000000" reliability="0.091270" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="32" template_id="3443" template_name="rexona_men_tuning_lotus_aero_90g_(nova_embalagem)" face_id="F" width="4.967651" height="20.194584" x="6.359190" y="66.290047" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="102.000000" reliability="0.077512" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="33" template_id="3027" template_name="rexona_men_active_aero_90g(nova_embalagem)" face_id="F" width="3.219779" height="13.089102" x="112.524139" y="58.631924" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="42.000000" reliability="0.073298" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="34" template_id="2981" template_name="desod_aero_dove_pure_100g" face_id="F" width="3.507863" height="14.655069" x="24.163389" y="71.339226" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="238.000000" reliability="0.067854" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="35" template_id="2921" template_name="desod_aero_nivea_for_men_dry_impact_92g" face_id="FN" width="4.967651" height="19.208252" x="52.791191" y="-2.177195" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="178.000000" reliability="0.059290" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="36" template_id="2981" template_name="desod_aero_dove_pure_100g" face_id="F" width="4.169930" height="17.421040" x="45.312256" y="67.049110" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="118.000000" reliability="0.057735" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="37" template_id="3025" template_name="rexona_cotton_aerosol_intermediario_105g" face_id="F" width="3.219779" height="13.379972" x="127.509262" y="4.279642" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="80.000000" sure_match="58.000000" reliability="0.055262" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="38" template_id="2978" template_name="desod_aero_dove_men_+_care_silver_control_89g" face_id="F" width="3.507863" height="13.407830" x="85.741692" y="25.706442" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="182.000000" sure_match="192.000000" reliability="0.044393" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="39" template_id="3025" template_name="rexona_cotton_aerosol_intermediario_105g" face_id="F" width="3.219779" height="13.379972" x="48.324364" y="58.617615" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="198.000000" sure_match="208.000000" reliability="0.039931" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="40" template_id="3443" template_name="rexona_men_tuning_lotus_aero_90g_(nova_embalagem)" face_id="F" width="3.219779" height="13.089102" x="11.894348" y="66.806091" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="224.000000" sure_match="234.000000" reliability="0.037070" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="41" template_id="3440" template_name="rexona_men_quantum_aero_90g_(nova_embalagem)" face_id="F" width="5.906875" height="24.012732" x="109.756493" y="22.204649" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="182.000000" sure_match="169.000000" reliability="0.029162" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="42" template_id="3440" template_name="rexona_men_quantum_aero_90g_(nova_embalagem)" face_id="F" width="7.646170" height="31.083344" x="29.141186" y="24.096014" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="222.000000" sure_match="217.000000" reliability="0.027941" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                            <product id="43" template_id="2981" template_name="desod_aero_dove_pure_100g" face_id="F" width="3.219779" height="13.451522" x="12.742197" y="65.544594" tilt_x_deg="0.000000" tilt_y_deg="0.000000" rot_deg="0.000000" unit_measure="cm" geomform="r" m="1.000000" msf="0.000000" msn="0.000000" mccv="0.000000" v="1.000000" sure_flav="232.000000" sure_match="223.000000" reliability="0.013065" reliability_validation="0.000000" reliability_deoverlapping="0.000000" block="0" photo="54537" step="0.000000" />
+                        </products>
+                        <labels />
+                        <shelves />
+                    </result>
+                </results>
+                <release version="922 (built:Nov 27 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+                <release version="922 (built:Dec  1 2014)" />
+            </step>
+        </output>
+    </session>
+</application>
