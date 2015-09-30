@@ -1,0 +1,8 @@
+#logback.classic pattern: %date{HH:mm:ss.SSS} |-%-5level [%thread] [%logger{0}] %msg%n
+09:22:53.536 |-INFO  [main] [ROOT] patternlayout encoder info
+09:22:53.600 |-INFO  [main] [AnnotationMBeanExporter] Registering beans for JMX exposure on startup
+09:22:53.600 |-WARN  [main] [HelloWorldService] Writing greeting for name=Sergio
+09:22:53.600 |-INFO  [main] [Application] Started Application in 0.625 seconds (JVM running for 0.925)
+09:22:53.600 |-INFO  [main] [Application] Spring Boot application has finished
+09:22:53.600 |-INFO  [Thread-1] [AnnotationConfigApplicationContext] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@40f08448: startup date [Mon May 25 09:22:53 CEST 2015]; root of context hierarchy
+09:22:53.600 |-INFO  [Thread-1] [AnnotationMBeanExporter] Unregistering JMX-exposed beans on shutdown
