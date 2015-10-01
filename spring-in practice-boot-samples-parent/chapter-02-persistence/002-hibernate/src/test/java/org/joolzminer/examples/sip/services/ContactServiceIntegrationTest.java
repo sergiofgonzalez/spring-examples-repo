@@ -1,4 +1,4 @@
-package org.joolzminer.examples.sip.repositories;
+package org.joolzminer.examples.sip.services;
 
 import java.util.List;
 
@@ -20,15 +20,15 @@ import static org.hamcrest.Matchers.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
-public class ContactRepositoryIntegrationTest {
+public class ContactServiceIntegrationTest {
 
 	@Autowired
-	private ContactRepository contactRepository;
+	private ContactService contactService;
 	
 	@Test
 	@Sql({"/sql/clean-tables.sql", "/sql/insert-single-contact.sql"})
 	public void testGetContactsWithSingleEntry() {
-		List<Contact> contacts = contactRepository.getContacts();
+		List<Contact> contacts = contactService.getContacts();
 		
 		assertThat(contacts.size(), is(equalTo(1)));
 		assertThat(contacts.get(0).getFirstName(), is(equalTo("Sergio")));
@@ -40,7 +40,7 @@ public class ContactRepositoryIntegrationTest {
 	@Test
 	@Sql({"/sql/clean-tables.sql", "/sql/insert-several-contacts.sql"})
 	public void testGetContactsWithSeveralEntries() {
-		List<Contact> contacts = contactRepository.getContacts();
+		List<Contact> contacts = contactService.getContacts();
 		
 		assertThat(contacts.size(), is(equalTo(3)));
 	}
@@ -48,7 +48,7 @@ public class ContactRepositoryIntegrationTest {
 	@Test
 	@Sql({"/sql/clean-tables.sql", "/sql/insert-single-contact.sql"})
 	public void testGetContactsByEmailSingleEntry() {
-		List<Contact> contacts = contactRepository.getContactsByEmail("sergio.f.gonzalez@gmail.com");
+		List<Contact> contacts = contactService.getContactsByEmail("sergio.f.gonzalez@gmail.com");
 		
 		assertThat(contacts.size(), is(equalTo(1)));
 	}
@@ -56,7 +56,7 @@ public class ContactRepositoryIntegrationTest {
 	@Test
 	@Sql({"/sql/clean-tables.sql", "/sql/insert-several-contacts.sql"})
 	public void testGetContactsByEmailSeveralEntriesGetOne() {
-		List<Contact> contacts = contactRepository.getContactsByEmail("sergio.f.gonzalez@gmail.com");
+		List<Contact> contacts = contactService.getContactsByEmail("sergio.f.gonzalez@gmail.com");
 		
 		assertThat(contacts.size(), is(equalTo(1)));
 	}
@@ -64,7 +64,7 @@ public class ContactRepositoryIntegrationTest {
 	@Test
 	@Sql({"/sql/clean-tables.sql", "/sql/insert-several-contacts-2.sql"})
 	public void testGetContactsByEmailSeveralEntriesGetSeveral() {
-		List<Contact> contacts = contactRepository.getContactsByEmail("family@gmail.com");
+		List<Contact> contacts = contactService.getContactsByEmail("family@gmail.com");
 		
 		assertThat(contacts.size(), is(equalTo(3)));
 	}
@@ -74,9 +74,10 @@ public class ContactRepositoryIntegrationTest {
 	@Test
 	@Sql("/sql/clean-tables.sql")
 	public void testCreateContact() {
-		Contact savedContact = contactRepository.create(new Contact("Sergio", "F", "Gonzalez", "sergio.f.gonzalez@gmail.com"));
-
-		assertThat(savedContact.getId(), is(notNullValue(Long.class)));		
+		Contact contact = new Contact("Sergio", "F", "Gonzalez", "sergio.f.gonzalez@gmail.com");
+		contactService.create(contact);
+		
+		assertThat(contact.getId(), is(notNullValue(Long.class)));		
 	}
-
+		
 }

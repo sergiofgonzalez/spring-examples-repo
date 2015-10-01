@@ -1,0 +1,19 @@
+application:
+    dataSource:
+        url: jdbc:mysql://mcpdev:3306/sip?autoReconnect=true
+        username: root
+        password: Accenture1
+    
+        initializer:
+            enabled: true
+            separator: //
+      
+            scripts:
+                drop: sql/drop-schema.sql
+                create: sql/create-schema.sql
+                insert: sql/insert-data.sql
+
+logging:
+    level:
+        org.joolzminer.examples.sip: debug
+                       

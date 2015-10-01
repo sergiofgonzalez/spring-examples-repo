@@ -16,6 +16,10 @@
 	
 	<modules>
 		<module>001-jdbc</module>
+        <module>002-hibernate</module>
+        <module>003-hibernate-data-access-layer</module>
+        <module>004-jpa</module>
+        <module>005-spring-data-jpa</module>
 	</modules>
 	
 </project>

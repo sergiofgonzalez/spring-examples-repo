@@ -42,6 +42,12 @@ public class Contact {
 
 	@Override
 	public String toString() {
-		return new ToStringCreator(this).toString();
+		return new ToStringCreator(this)
+			.append("id", id)
+			.append("firstName", firstName)
+			.append("middleInitial", middleInitial)
+			.append("lastName", lastName)
+			.append("email", email)
+			.toString();
 	}		
 }
